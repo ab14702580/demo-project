@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-design {
+    @apply px-[7px] leading-[50px] text-[14px] font-semibold hover:text-text-default transition-colors duration-300
+  }
+  .next-nav-design{
+    @apply text-nowrap text-[14px] font-normal w-full
+  }
+  .icon-design{
+    @apply after:right-2.5 after:top-[12px] after:opacity-40 after:w-0 after:absolute relative after:h-0 after:border-modify
+  }
+  .double-nav-design{
+    @apply w-full hover:bg-text-default hover:text-white transition-colors duration-300 cursor-pointer
+  }
+}
+@layer utilities {
+  .linear-gradient-mix {
+    background: linear-gradient(
+      45deg,
+      #00237e,
+      #3749bb,
+      #0bc1e9,
+      #3749bb,
+      #00237e
+    );
+    background-size: 400% 400%;
+  }
+  .shadow-box{
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1), 0 10px 15px rgb(0 0 0 / 10%), 0 -3px 0 0 #ef4a23;
+  }
+  .border-modify{
+    border-width: 4px 0 4px 4px;
+    border-style: solid;
+    border-color: transparent transparent transparent #ef4a23;
+    display: inline-block;
+  }
+  .underline-design{
+    text-decoration: underline;
+    text-decoration-color: white;
+    transition-property: text-decoration,text-decoration-color;
+    transition-duration: 300ms;
+  }
+  .underline-design:hover{
+    text-decoration: underline;
+  }
+}
