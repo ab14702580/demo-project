@@ -46,4 +46,18 @@
   .underline-design:hover{
     text-decoration: underline;
   }
+  .hover-nav-animate{
+    color: black;
+  }
+  .hover-nav-animate ul:hover .hover-nav-animate a{
+    color: white;
+  }
+  .nav-2-modify ul{
+    transition-property: opacity;
+    transition-duration: 300ms;
+  }
+  .nav-2-modify:hover ul{
+    visibility: visible;
+    opacity: 1;
+  }
 }
