@@ -17,6 +17,13 @@
   }
 }
 @layer utilities {
+  .next-nav-content-design{
+    text-decoration: none;
+    transition: text-decoration 100ms;
+  }
+  .next-nav-content-design:hover{
+    text-decoration: underline;
+  }
   .linear-gradient-mix {
     background: linear-gradient(
       45deg,
