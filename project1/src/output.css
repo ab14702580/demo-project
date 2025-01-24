@@ -921,6 +921,12 @@ video {
   opacity: 0;
 }
 
+.shadow {
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -1054,6 +1060,10 @@ video {
   color: rgb(239 74 35 / var(--tw-text-opacity, 1));
 }
 
+.hover\:opacity-100:hover {
+  opacity: 1;
+}
+
 .hover\:before\:bottom-\[0\%\]:hover::before {
   content: var(--tw-content);
   bottom: 0%;
@@ -1064,6 +1074,20 @@ video {
   color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 
+.group\/nav-1-display-design:hover .group-hover\/nav-1-display-design\:text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+}
+
+.group\/nav--display-design:hover .group-hover\/nav--display-design\:text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+}
+
 .peer\/nav-1-display-design:hover ~ .peer-hover\/nav-1-display-design\:visible {
   visibility: visible;
+}
+
+.peer\/nav-1-display-design:hover ~ .peer-hover\/nav-1-display-design\:opacity-100 {
+  opacity: 1;
 }
