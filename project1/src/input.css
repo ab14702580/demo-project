@@ -7,7 +7,7 @@
     @apply px-[7px] leading-[50px] text-[14px] font-semibold hover:text-text-default transition-colors duration-300
   }
   .next-nav-design{
-    @apply text-nowrap text-[14px] font-normal w-full
+    @apply text-nowrap text-[14px] font-normal w-full leading-[19px]
   }
   .icon-design{
     @apply after:right-2.5 after:top-[12px] after:opacity-40 after:w-0 after:absolute relative after:h-0 after:border-modify
