@@ -655,11 +655,6 @@ video {
   z-index: 50;
 }
 
-.mx-\[14\.5px\] {
-  margin-left: 14.5px;
-  margin-right: 14.5px;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -697,6 +692,10 @@ video {
   display: flex;
 }
 
+.h-\[1000px\] {
+  height: 1000px;
+}
+
 .h-\[30px\] {
   height: 30px;
 }
@@ -717,24 +716,20 @@ video {
   height: 82px;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
-.h-\[\] {
-  height: ;
-}
-
-.h-\[100vh\] {
-  height: 100vh;
+.w-\[100\%\] {
+  width: 100%;
 }
 
 .w-\[117px\] {
   width: 117px;
 }
 
-.w-\[1349px\] {
-  width: 1349px;
+.w-\[1335px\] {
+  width: 1335px;
+}
+
+.w-\[1347px\] {
+  width: 1347px;
 }
 
 .w-\[160px\] {
@@ -763,74 +758,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[100\] {
-  width: 100;
-}
-
-.w-\[100\%\] {
-  width: 100%;
-}
-
-.w-\[50\%\] {
-  width: 50%;
-}
-
-.w-\[50\] {
-  width: 50;
-}
-
-.w-\[\%\] {
-  width: %;
-}
-
-.w-\[px\] {
-  width: px;
-}
-
-.w-\[\] {
-  width: ;
-}
-
-.w-\[13\] {
-  width: 13;
-}
-
-.w-1 {
-  width: 0.25rem;
-}
-
-.w-\[134\] {
-  width: 134;
-}
-
-.w-\[1355\] {
-  width: 1355;
-}
-
-.w-\[1355px\] {
-  width: 1355px;
-}
-
-.w-\[13px\] {
-  width: 13px;
-}
-
-.w-\[1340px\] {
-  width: 1340px;
-}
-
-.w-\[1335px\] {
-  width: 1335px;
-}
-
-.w-\[13365px\] {
-  width: 13365px;
-}
-
-.w-\[133px\] {
-  width: 133px;
 }
 
 .max-w-\[1320px\] {
@@ -902,6 +829,10 @@ video {
   overflow: hidden;
 }
 
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
 .text-wrap {
   text-wrap: wrap;
 }
@@ -922,21 +853,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
-}
-
-.bg-green-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(22 101 52 / var(--tw-bg-opacity, 1));
-}
-
-.bg-\[\#f5f5f5\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(245 245 245 / var(--tw-bg-opacity, 1));
-}
-
-.bg-\[red\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 0 0 / var(--tw-bg-opacity, 1));
 }
 
 .px-5 {
@@ -1105,6 +1021,16 @@ video {
 .nav-2-modify:hover ul{
   visibility: visible;
   opacity: 1;
+}
+
+.sticky-nav{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-shadow{
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1), 0 5px 10px rgb(0 0 0 / 5%);
 }
 
 .before\:absolute::before {

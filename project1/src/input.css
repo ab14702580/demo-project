@@ -67,4 +67,12 @@
     visibility: visible;
     opacity: 1;
   }
+  .sticky-nav{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  .navbar-shadow{
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1), 0 5px 10px rgb(0 0 0 / 5%);
+  }
 }
