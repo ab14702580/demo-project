@@ -833,6 +833,10 @@ video {
   overflow-x: hidden;
 }
 
+.overflow-y-hidden {
+  overflow-y: hidden;
+}
+
 .text-wrap {
   text-wrap: wrap;
 }
