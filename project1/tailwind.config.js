@@ -7,6 +7,7 @@ module.exports = {
         "header-color": "#081621",
         "black-modify": "#838383",
         "text-default": "#ef4a23",
+        "input-text": "#666666",
       },
       animation: {
         infinite_color: "infinite_color 2s ease infinite",

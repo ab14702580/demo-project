@@ -44,14 +44,21 @@
     border-color: transparent transparent transparent #ef4a23;
     display: inline-block;
   }
+  .input-shadow{
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.05);
+  }
+  .sujjetion-box{
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.05) inset, 0 -5px 0 0 #fff;
+  }
   .underline-design{
     text-decoration: underline;
     text-decoration-color: white;
-    transition-property: text-decoration,text-decoration-color;
+    transition-property: text-decoration,text-decoration-color,color;
     transition-duration: 300ms;
   }
   .underline-design:hover{
     text-decoration: underline;
+    text-decoration-color: white;
   }
   .hover-nav-animate{
     color: black;
