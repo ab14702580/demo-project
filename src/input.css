@@ -1,0 +1,182 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-design {
+    @apply px-[7px] leading-[50px] text-[14px] font-semibold hover:text-text-default transition-colors duration-300;
+  }
+  .next-nav-design {
+    @apply text-nowrap text-[14px] font-normal w-full leading-[19px];
+  }
+  .icon-design {
+    @apply after:right-2.5 after:top-[12px] after:opacity-40 after:w-0 after:absolute relative after:h-0 after:border-modify;
+  }
+  .double-nav-design {
+    @apply w-full hover:bg-text-default hover:text-white transition-colors duration-300 cursor-pointer;
+  }
+  .multiple-card-design {
+    @apply w-[50px] h-[50px] bg-text-default grid place-items-center rounded-full mr-5;
+  }
+}
+@layer utilities {
+  .next-nav-content-design {
+    text-decoration: none;
+    transition: text-decoration 100ms;
+  }
+  .next-nav-content-design:hover {
+    text-decoration: underline;
+  }
+  .linear-gradient-mix {
+    background: linear-gradient(
+      45deg,
+      #00237e,
+      #3749bb,
+      #0bc1e9,
+      #3749bb,
+      #00237e
+    );
+    background-size: 400% 400%;
+  }
+  .shadow-box {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1), 0 10px 15px rgb(0 0 0 / 10%),
+      0 -3px 0 0 #ef4a23;
+  }
+  .border-modify {
+    border-width: 4px 0 4px 4px;
+    border-style: solid;
+    border-color: transparent transparent transparent #ef4a23;
+    display: inline-block;
+  }
+  .input-shadow {
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.05);
+  }
+  .sujjetion-box {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2),
+      0 1px 0 rgba(0, 0, 0, 0.05) inset, 0 -5px 0 0 #fff;
+  }
+  .underline-design {
+    text-decoration: underline;
+    text-decoration-color: white;
+    transition-property: text-decoration, text-decoration-color, color;
+    transition-duration: 300ms;
+  }
+  .underline-design:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+  }
+  .hover-nav-animate {
+    color: black;
+  }
+  .hover-nav-animate ul:hover .hover-nav-animate a {
+    color: white;
+  }
+  .nav-2-modify ul {
+    transition-property: opacity;
+    transition-duration: 300ms;
+  }
+  .nav-2-modify:hover ul {
+    visibility: visible;
+    opacity: 1;
+  }
+  .sticky-nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  .navbar-shadow {
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1), 0 5px 10px rgb(0 0 0 / 5%);
+  }
+  .btn {
+    transition: all 300ms linear;
+  }
+  .btn:hover {
+    box-shadow: 0 50px rgba(0, 0, 0, 0.2) inset;
+    background: #2c3a96;
+  }
+  .input:valid + label .img1 {
+    display: none;
+  }
+  .input:valid + label .img2 {
+    display: block;
+  }
+  .transition5 {
+    transition: border-radius 300ms ease 300ms;
+  }
+  .box-background {
+    position: relative;
+  }
+  .box-background::before {
+    content: "";
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    bottom: 2px;
+    right: 2px;
+    opacity: 0;
+    background: black;
+    z-index: -1;
+    border-radius: 50%;
+    transition: opacity 300ms linear;
+  }
+  .bac:hover .box-background::before {
+    opacity: 1;
+  }
+  .animated-icon {
+    background: linear-gradient(
+      45deg,
+      red,
+      orange,
+      yellow,
+      lime,
+      cyan,
+      blue,
+      magenta,
+      violet,
+      deeppink,
+      dodgerblue,
+      springgreen,
+      gold
+    );
+    background-size: 1500%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: moveColors 6s linear infinite alternate;
+  }
+  @keyframes moveColors {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+  .circle::after {
+    content: "";
+    position: absolute;
+    width: 110%;
+    height: 110%;
+    left: -5%;
+    top: -5%;
+    border-radius: 50%;
+    background: conic-gradient(#f00, #0f0, #00f, #f00);
+    z-index: -30;
+    animation: rotate 2s linear infinite;
+    opacity: 0;
+  }
+  .circle:hover::after {
+    animation-play-state: paused;
+  }
+  .bac:hover .circle::after {
+    opacity: 1;
+    transition: opacity 300ms linear 300ms;
+  }
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}
