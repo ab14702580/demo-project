@@ -18,6 +18,54 @@
   .multiple-card-design {
     @apply w-[50px] h-[50px] bg-text-default grid place-items-center rounded-full mr-5;
   }
+  .card-before-design {
+    @apply relative z-10 before:absolute before:bottom-[100%] before:left-0 before:w-full before:h-full before:transition-all before:duration-300 hover:before:bottom-[0%] before:-z-10 before:bg-black hover:text-white transition-all duration-300 overflow-hidden;
+  }
+  .before-border {
+    @apply before:absolute before:w-[1px] before:h-[90%] before:top-[5%] before:left-[50%] before:bg-af-b;
+  }
+  .dis-cound{
+    @apply w-[109px] h-[20px] bg-dis-c text-[12px] text-white rounded-r-[50px] absolute left-0 top-[15px] ml-[-68px] transition-all duration-300 z-10;
+  }
+  .product1-header{
+    @apply w-[250px] h-[384px] bg-white flex flex-col rounded-[5px] relative overflow-hidden;
+  }
+  .product1-img{
+    @apply w-full h-[253px] p-[20px] border-b-[3px] border-solid border-[#F9F9FD] relative before:absolute before:w-full before:h-full before:bg-black before:left-0 before:bottom-[100%] before:opacity-20 before:transition-all before:duration-300;
+  }
+  .product1-content{
+    @apply p-[15px] h-[60px] flex flex-col;
+  }
+  .product1-text1{
+    @apply font-medium text-[15px] mb-[30px] transition-all duration-300;
+  }
+  .link-tag-design{
+    @apply font-medium text-text-default underline;
+  }
+  .last-header-content{
+    @apply text-[22px] mb-[20px] font-medium text-left;
+  }
+  .last-header-content2{
+    @apply text-[18px] font-medium text-left mt-[25px] mb-[12px];
+  }
+  .last-header-para{
+    @apply text-left leading-[26px];
+  }
+  .footer-card1-header{
+    @apply py-[10px] cursor-pointer border border-solid border-f-border w-[272px] h-[70px] flex items-center relative rounded-[50px] before:absolute overflow-hidden before:-z-10 z-10 before:left-0 before:top-0 before:h-full before:w-full before:bg-black before:opacity-0 before:transition-all before:duration-300 hover:before:opacity-40 transition-all duration-300 hover:border-text-default;
+  }
+  .footer-card1-icon{
+    @apply w-[55px] h-[40px] pr-[10px] pl-[20px] mr-[20px] border-r border-solid border-f-border grid place-items-center text-white;
+  }
+  .footer-card1-text1{
+    @apply mb-[3px] text-[#838383] text-[12px];
+  }
+  .footer-card1-text2{
+    @apply font-medium text-text-default text-[20px];
+  }
+  .footer-header-tag{
+    @apply mb-[30px] text-[14px] tracking-[4px] text-white uppercase font-medium;
+  }
 }
 @layer utilities {
   .next-nav-content-design {
@@ -178,5 +226,54 @@
     100% {
       transform: rotate(360deg);
     }
+  }
+  .shadow-card {
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+  }
+  .img-white {
+    filter: invert(1) brightness(2);
+  }
+  .bg-linear {
+    background: linear-gradient(125deg, #0bc1e9, #3749bb, #00237e);
+  }
+  .box-shadow-button {
+    box-shadow: 0px 60px rgba(0, 0, 0, 0.3) inset;
+  }
+  .grid-modify {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+  .calc-1 {
+    left: calc(50% - 11px);
+    top: calc(46% - 13px);
+  }
+  .custom-t {
+    font-size: 17px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #D51E0B;
+  }
+  .custom-t2{
+    font-size: 12px;
+    text-decoration: line-through;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #666666;
+  }
+  .icon-border{
+    color: transparent;
+    font-size: 17px;
+    -webkit-text-stroke: 2px #f51e45;
+    transition: color 300ms linear;
+  }
+  .icon-border:active{
+    color: #f51e45;
+  }
+  .active{
+    color: #f51e45;
+  }
+  .last-shadow{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1), -5px 5px 10px rgba(0, 0, 0, 0.1);
   }
 }
