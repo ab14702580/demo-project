@@ -886,8 +886,20 @@ video {
   left: 0px;
 }
 
+.left-2\.5 {
+  left: 0.625rem;
+}
+
+.left-\[200px\] {
+  left: 200px;
+}
+
 .right-1 {
   right: 0.25rem;
+}
+
+.right-2\.5 {
+  right: 0.625rem;
 }
 
 .right-5 {
@@ -900,6 +912,10 @@ video {
 
 .right-\[9px\] {
   right: 9px;
+}
+
+.top-\[-5px\] {
+  top: -5px;
 }
 
 .top-\[13px\] {
@@ -916,22 +932,6 @@ video {
 
 .top-\[8px\] {
   top: 8px;
-}
-
-.left-2\.5 {
-  left: 0.625rem;
-}
-
-.left-\[200px\] {
-  left: 200px;
-}
-
-.right-2\.5 {
-  right: 0.625rem;
-}
-
-.top-\[-5px\] {
-  top: -5px;
 }
 
 .-z-10 {
@@ -1004,6 +1004,10 @@ video {
   margin-left: 14px;
 }
 
+.ml-\[15px\] {
+  margin-left: 15px;
+}
+
 .ml-\[25px\] {
   margin-left: 25px;
 }
@@ -1014,6 +1018,10 @@ video {
 
 .ml-\[5px\] {
   margin-left: 5px;
+}
+
+.ml-auto {
+  margin-left: auto;
 }
 
 .mr-\[-35px\] {
@@ -1028,6 +1036,10 @@ video {
   margin-right: 50px;
 }
 
+.mr-auto {
+  margin-right: auto;
+}
+
 .mt-\[-6px\] {
   margin-top: -6px;
 }
@@ -1040,20 +1052,16 @@ video {
   margin-top: 30px;
 }
 
+.mt-\[4px\] {
+  margin-top: 4px;
+}
+
 .mt-\[50px\] {
   margin-top: 50px;
 }
 
 .mt-\[5px\] {
   margin-top: 5px;
-}
-
-.ml-auto {
-  margin-left: auto;
-}
-
-.mr-auto {
-  margin-right: auto;
 }
 
 .box-border {
@@ -1124,12 +1132,20 @@ video {
   height: 490px;
 }
 
+.h-\[50px\] {
+  height: 50px;
+}
+
 .h-\[52px\] {
   height: 52px;
 }
 
 .h-\[59px\] {
   height: 59px;
+}
+
+.h-\[5px\] {
+  height: 5px;
 }
 
 .h-\[71px\] {
@@ -1154,10 +1170,6 @@ video {
 
 .h-full {
   height: 100%;
-}
-
-.h-\[50px\] {
-  height: 50px;
 }
 
 .min-h-\[40px\] {
@@ -1196,6 +1208,10 @@ video {
   width: 200%;
 }
 
+.w-\[200px\] {
+  width: 200px;
+}
+
 .w-\[20px\] {
   width: 20px;
 }
@@ -1232,6 +1248,10 @@ video {
   width: 34px;
 }
 
+.w-\[400px\] {
+  width: 400px;
+}
+
 .w-\[40px\] {
   width: 40px;
 }
@@ -1252,6 +1272,10 @@ video {
   width: 665px;
 }
 
+.w-\[90px\] {
+  width: 90px;
+}
+
 .w-\[965px\] {
   width: 965px;
 }
@@ -1264,56 +1288,16 @@ video {
   width: 100%;
 }
 
-.w-\[200px\] {
-  width: 200px;
-}
-
-.w-\[400px\] {
-  width: 400px;
-}
-
-.w-\[\] {
-  width: ;
-}
-
-.w-\[1290\] {
-  width: 1290;
-}
-
-.w-\[1390px\] {
-  width: 1390px;
-}
-
-.w-\[1320px\] {
-  width: 1320px;
-}
-
-.w-\[1360px\] {
-  width: 1360px;
-}
-
-.w-\[1340px\] {
-  width: 1340px;
-}
-
-.w-\[1345px\] {
-  width: 1345px;
-}
-
-.w-\[134px\] {
-  width: 134px;
-}
-
-.w-\[1347px\] {
-  width: 1347px;
+.max-w-\[1320px\] {
+  max-width: 1320px;
 }
 
 .max-w-\[1400px\] {
   max-width: 1400px;
 }
 
-.max-w-\[1320px\] {
-  max-width: 1320px;
+.max-w-screen-1336m {
+  max-width: 1336px;
 }
 
 @keyframes infinite_background_color {
@@ -1427,6 +1411,14 @@ video {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+.overflow-y-hidden {
+  overflow-y: hidden;
 }
 
 .text-wrap {
@@ -1595,6 +1587,11 @@ video {
   padding-bottom: 10px;
 }
 
+.py-\[14px\] {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
 .py-\[15px\] {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -1608,6 +1605,11 @@ video {
 .py-\[25px\] {
   padding-top: 25px;
   padding-bottom: 25px;
+}
+
+.py-\[4px\] {
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 .py-\[5px\] {
@@ -1625,9 +1627,8 @@ video {
   padding-bottom: 8px;
 }
 
-.py-\[4px\] {
-  padding-top: 4px;
-  padding-bottom: 4px;
+.pb-3 {
+  padding-bottom: 0.75rem;
 }
 
 .pb-\[20px\] {
@@ -1696,10 +1697,6 @@ video {
 
 .pt-\[50px\] {
   padding-top: 50px;
-}
-
-.pb-3 {
-  padding-bottom: 0.75rem;
 }
 
 .text-left {
@@ -1862,12 +1859,12 @@ video {
   text-decoration-color: #fff;
 }
 
-.opacity-50 {
-  opacity: 0.5;
-}
-
 .opacity-0 {
   opacity: 0;
+}
+
+.opacity-50 {
+  opacity: 0.5;
 }
 
 .outline-none {
@@ -1887,6 +1884,10 @@ video {
   transition-duration: 150ms;
 }
 
+.duration-100 {
+  transition-duration: 100ms;
+}
+
 .duration-200 {
   transition-duration: 200ms;
 }
@@ -1897,10 +1898,6 @@ video {
 
 .duration-500 {
   transition-duration: 500ms;
-}
-
-.duration-100 {
-  transition-duration: 100ms;
 }
 
 .linear-gradient-mix {
@@ -2095,6 +2092,11 @@ video {
   position: absolute;
 }
 
+.before\:-top-\[2px\]::before {
+  content: var(--tw-content);
+  top: -2px;
+}
+
 .before\:bottom-\[100\%\]::before {
   content: var(--tw-content);
   bottom: 100%;
@@ -2137,6 +2139,12 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
 }
 
+.before\:bg-white::before {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
 .before\:opacity-40::before {
   content: var(--tw-content);
   opacity: 0.4;
@@ -2157,6 +2165,37 @@ video {
 .before\:duration-500::before {
   content: var(--tw-content);
   transition-duration: 500ms;
+}
+
+.after\:absolute::after {
+  content: var(--tw-content);
+  position: absolute;
+}
+
+.after\:-bottom-\[2px\]::after {
+  content: var(--tw-content);
+  bottom: -2px;
+}
+
+.after\:left-0::after {
+  content: var(--tw-content);
+  left: 0px;
+}
+
+.after\:h-full::after {
+  content: var(--tw-content);
+  height: 100%;
+}
+
+.after\:w-full::after {
+  content: var(--tw-content);
+  width: 100%;
+}
+
+.after\:bg-white::after {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
 .hover\:visible:hover {
@@ -2232,11 +2271,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
-.group\/text-color-changer:hover .group-hover\/text-color-changer\:text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
 .group\/nav-2-display-design:hover .group-hover\/nav-2-display-design\:text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity, 1));
@@ -2260,6 +2294,11 @@ video {
 .group\/nav-6-display-design:hover .group-hover\/nav-6-display-design\:text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+}
+
+.group\/text-color-changer:hover .group-hover\/text-color-changer\:text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 .group\/text-color-changer:hover .group-hover\/text-color-changer\:decoration-white {
@@ -2315,4 +2354,26 @@ video {
 
 .peer\/suggetion:focus ~ .peer-focus\/suggetion\:block {
   display: block;
+}
+
+@media (max-width: 1338px) {
+  .max-\[1338px\]\:hidden {
+    display: none;
+  }
+
+  .max-\[1338px\]\:w-\[98\%\] {
+    width: 98%;
+  }
+}
+
+@media not all and (min-width: 1336px) {
+  .max-1336\:hidden {
+    display: none;
+  }
+}
+
+@media (max-width: 1280px) {
+  .max-\[1280px\]\:w-\[98\%\] {
+    width: 98%;
+  }
 }

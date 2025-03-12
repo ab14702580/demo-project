@@ -47,6 +47,10 @@ module.exports = {
     transitionduration: {
       400: "400ms",
     },
+    screens: {
+      '1336m': '1336px',
+      '1336': '1336px',
+    },
   },
   plugins: [],
 };
