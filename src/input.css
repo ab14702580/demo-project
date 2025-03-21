@@ -276,4 +276,13 @@
   .last-shadow{
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1), -5px 5px 10px rgba(0, 0, 0, 0.1);
   }
+  .responsive-box{
+    box-shadow: 5px 0 20px rgba(0, 0, 0, 0.3);
+  }
+  .icon-active::after{
+    display: none;
+  }
+  .next-c-s{
+    box-shadow: 0 0 30px rgba(0,0,0, 0.2), -1px 0 0 0 rgba(255, 255, 255, 0.2);
+  }
 }

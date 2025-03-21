@@ -1,19 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-  <link rel="shortcut icon" href="../assets/favicon.png" type="image/x-icon">
-  <link rel="stylesheet" href="input.css">
-  <link rel="stylesheet" href="output.css">
-  <title>Ster Tach</title>
-</head>
-<body class="box-border overflow-x-hidden">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="../assets/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="input.css" />
+    <link rel="stylesheet" href="output.css" />
+    <title>Ster Tach</title>
+  </head>
+  <body class="box-border bg-[#F2F4F8]">
     <!--header part-->
-    <header class="w-[100%] overflow-hidden">
+    <header class="w-[100%] max-[1318px]:hidden">
       <div class="w-[100%] h-[82px] bg-header-color py-[15px]">
-        <div class="w-[1335px] mx-auto px-[15px] flex items-center">
+        <div
+          class="w-[1335px] max-[1335px]:w-full mx-auto px-[15px] flex items-center"
+        >
           <div class="logo w-[160px]">
             <img
               src="../assets/logo.png"
@@ -102,11 +111,13 @@
         </div>
       </div>
     </header>
-    <div class="header-sticky sticky-nav navbar-shadow h-[50px] bg-white w-full mx-auto">
+    <div
+      class="header-sticky sticky-nav navbar-shadow h-[50px] bg-white w-full mx-auto max-[1318px]:hidden"
+    >
       <div>
-        <nav class="w-full mx-auto">
+        <nav class="w-[98%] mx-auto">
           <div
-            class="max-w-[1320px] mx-auto pr-[15px] pl-[15px] mr-auto ml-auto"
+            class="w-[1330px] max-[1335px]:w-full min-[1400px]:w-[1370px] mx-auto pr-[15px] pl-[15px] mr-auto ml-auto"
           >
             <ul class="flex">
               <!--Desktop nav part-->
@@ -1586,7 +1597,7 @@
                       >
                       <!--double nav ber-->
                       <ul
-                        class="absolute left-[200px] top-[-5px] w-[200px] py-[5px] z-50 bg-white shadow-box group-hover/nav-2-display-design:text-black invisible opacity-0"
+                        class="absolute right-[200px] top-[-5px] w-[200px] py-[5px] z-50 bg-white shadow-box group-hover/nav-2-display-design:text-black invisible opacity-0"
                       >
                         <li class="py-[4px] px-[15px] double-nav-design">
                           <a href="#" class="next-nav-design flex items-center"
@@ -1624,7 +1635,7 @@
                       >
                       <!--double nav ber-->
                       <ul
-                        class="absolute left-[200px] top-[-5px] w-[200px] py-[5px] z-50 bg-white shadow-box group-hover/nav-2-display-design:text-black invisible opacity-0"
+                        class="absolute right-[200px] top-[-5px] w-[200px] py-[5px] z-50 bg-white shadow-box group-hover/nav-2-display-design:text-black invisible opacity-0"
                       >
                         <li class="py-[4px] px-[15px] double-nav-design">
                           <a href="#" class="next-nav-design flex items-center"
@@ -1662,7 +1673,7 @@
                       >
                       <!--double nav ber-->
                       <ul
-                        class="absolute left-[200px] top-[-5px] w-[200px] py-[5px] z-50 bg-white shadow-box group-hover/nav-2-display-design:text-black invisible opacity-0"
+                        class="absolute right-[200px] top-[-5px] w-[200px] py-[5px] z-50 bg-white shadow-box group-hover/nav-2-display-design:text-black invisible opacity-0"
                       >
                         <li class="py-[4px] px-[15px] double-nav-design">
                           <a href="#" class="next-nav-design flex items-center"
@@ -1684,36 +1695,115 @@
         </nav>
       </div>
     </div>
-    <!--slider section-->
-
-    <section class="max-w-[1400px] m-auto text-center">
-      <section class="selider w-full mt-[30px] px-[10px]">
-        <div class="selider-container flex overflow-hidden">
-          <div class="w-[990px] h-auto px-[15px] overflow-hidden relative">
-            <div class="w-[315%] flex h-full gap-4">
-              <div class="w-[965px] h-full overflow-hidden">
-                <img
-                  src="../assets/image3.webp"
-                  alt="image here"
-                  class="w-full h-full"
-                />
+    <!--next header part-->
+    <div
+      class="w-full h-[50px] bg-header-color flex justify-between items-center sticky top-0 z-[9999999999999999999999999] min-[1318px]:hidden px-[15px]"
+    >
+      <div>
+        <div class="relative">
+          <div class="cursor-pointer">
+            <span
+              class="w-[20px] h-[2px] inline-block bg-white relative before:absolute before:top-[-5px] before:left-0 before:w-[20px] before:h-[2px] before:bg-white after:w-[20px] after:absolute after:h-[2px] after:bottom-[-4.5px] after:left-0 after:bg-white"
+            ></span>
+          </div>
+          <div
+            class="w-[290px] bg-white h-auto responsive-box absolute top-[38px] -left-[24px] hidden"
+          >
+            <div>
+              <div
+                class="flex justify-between items-center cursor-pointer transition-all duration-300 group relative border-b border-solid border-[#eee] w-full px-5"
+              >
+                <a
+                  href="#"
+                  class="leading-[44px] text-[16px] font-medium text-black group-hover:text-text-default transition-all duration-300"
+                  >Desktop</a
+                >
+                <span
+                  class="w-[15px] h-[1px] bg-black after:absolute relative after:left-0 after:top-0 after:rotate-[90deg] after:bg-black after:w-full after:h-full"
+                ></span>
               </div>
-              <div class="absolute w-full bottom-0 py-[10px] text-center">
-                <span
-                  class="w-[30px] h-[8px] mx-[5px] bg-white opacity-50 inline-block cursor-pointer"
-                ></span>
-                <span
-                  class="w-[30px] h-[8px] mx-[5px] bg-white opacity-50 inline-block cursor-pointer"
-                ></span>
-                <span
-                  class="w-[30px] h-[8px] mx-[5px] bg-white opacity-50 inline-block cursor-pointer"
-                ></span>
+              <div class="w-full px-5 h-auto bg-[#FAFAFA] hidden">
+                <ul>
+                  <li>
+                    <a href="#" class="capitalize leading-[44px]">home</a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
-          <div class="w-[330px] h-[490px] px-[15px] mr-[-35px]">
+        </div>
+      </div>
+      <div class="w-[90px] h-[40px]">
+        <a href="#">
+          <img
+            class="w-full h-full"
+            src="../assets/favicon.png"
+            alt="icon here"
+          />
+        </a>
+      </div>
+      <div>
+        <i
+          class="fa-solid fa-magnifying-glass text-[18px] text-white ml-[15px] cursor-pointer"
+        ></i>
+        <i
+        class="fa-regular fa-square-plus text-[18px] text-white ml-[15px] cursor-pointer"
+      ></i>
+        <div>
+      </div>
+      </div>
+    </div>
+    <!--next bottom part-->
+    <div class="w-full fixed bottom-0 h-[61px] bg-header-color z-[99999] min-[1318px]:hidden flex">
+      <a href="#" class="flex items-center flex-col justify-center basis-[20%] text-white">
+        <i class="fa-regular fa-square-plus text-[18px]"></i>
+        <p class="text-[10px] text-next-text">Cart</p>
+      </a>
+      <a href="#" class="flex items-center flex-col justify-center basis-[20%] text-white">
+        <i class="fa-solid fa-bolt-lightning text-text-default text-lg animate-infinite_color"></i>
+        <p class="text-[10px] text-next-text">Cart</p>
+      </a>
+      <a href="#" class="flex items-center flex-col justify-center basis-[20%] text-white">
+        <i class="fa-regular fa-square-plus text-[18px]"></i>
+        <p class="text-[10px] text-next-text">Cart</p>
+      </a>
+      <a href="#" class="flex items-center flex-col justify-center basis-[20%] text-white">
+        <i class="fa-regular fa-square-plus text-[18px]"></i>
+        <p class="text-[10px] text-next-text">Cart</p>
+      </a>
+      <a href="#" class="flex items-center flex-col justify-center basis-[20%] text-white">
+        <i class="fa-regular fa-square-plus text-[18px]"></i>
+        <p class="text-[10px] text-next-text">Cart</p>
+      </a>
+    </div>
+    <!--slider section-->
+
+    <section class="max-w-[1400px] m-auto text-center">
+      <section class=" w-[1340px] mr-0 mx-auto mt-[30px] max-[1318px]:mt-[10px] px-[10px] max-[1318px]:px-[0px] max-[1318px]:w-[1226px] ml-0">
+        <div class="selider-container flex overflow-hidden max-[1318px]:px-[5px] gap-[25px]">
+          <div class="w-[990px] h-auto max-[1318px]:px-[0px] max-[1318px]:basis-[75%] max-[1318px]:pl-[15px] max-[1318px]:max-w-[75%] px-[15px] overflow-hidden relative">
+              <div class="w-[965px] max-[1318px]:w-[100%] h-auto  overflow-hidden">
+                <img
+                  src="../assets/image3.webp"
+                  alt="image here"
+                  class="w-full h-auto max-[1318px]:h-full"
+                />
+                <div class="absolute w-full bottom-0 py-[10px] text-center">
+                  <span
+                    class="w-[30px] h-[8px] mx-[5px] bg-white opacity-50 inline-block cursor-pointer"
+                  ></span>
+                  <span
+                    class="w-[30px] h-[8px] mx-[5px] bg-white opacity-50 inline-block cursor-pointer"
+                  ></span>
+                  <span
+                    class="w-[30px] h-[8px] mx-[5px] bg-white opacity-50 inline-block cursor-pointer"
+                  ></span>
+                </div>
+              </div>
+          </div>
+          <div class="w-[320px] max-[1813px]:px-[0px] max-[1318px]:basis-[25%] max-[1318px]:max-w-[25%] max-[1318px]:px-[15px] h-[490px] px-[15px] mr-[-35px] max-[1318px]:mr-[0px]">
             <div
-              class="w-[300px] h-[268px] bg-[#FFE8A1] py-[25px] px-[30px] box-shadow2"
+              class="max-[1318px]:w-full w-[300px] h-[268px] bg-[#FFE8A1] py-[25px] px-[30px] box-shadow2"
             >
               <h1 class="text-black text-center font-bold leading-[20px]">
                 Compare Products
@@ -1821,14 +1911,14 @@
                 </button>
               </form>
             </div>
-            <div class="w-[300px] mt-[30px]">
-              <img src="../assets/image4.webp" alt="image here" />
+            <div class="w-[300px] mt-[30px] max-[1318px]:mt-[15px] max-[1318px]:w-full">
+              <img src="../assets/image4.webp" alt="image here" class="w-full"/>
             </div>
           </div>
         </div>
       </section>
       <div
-        class="marque-slider ml-[25px] pt-[12px] px-[20px] pb-[8px] w-[1290px] bg-white mt-[30px] rounded-[33px] min-h-[40px] text-[14px] text-[#444]"
+        class="marque-slider ml-[25px] pt-[12px] px-[20px] pb-[8px] w-[1290px] max-[1318px]:w-full bg-white mt-[30px] rounded-[33px] min-h-[40px] text-[14px] text-[#444]"
       >
         <marquee behavior="smooth" direction="left" bgcolor="white"
           >22nd February, Saturday, All our outlets are open except Gazipur
@@ -1836,8 +1926,8 @@
           operational.</marquee
         >
       </div>
-      <section class="Servicing">
-        <div class="all-section-container w-[1290px] mx-auto mt-[50px]">
+      <section class="Servicing max-[1400px]:w-[1290px] w-[1340px] mx-auto">
+        <div class="all-section-container w-[1290px] mt-[50px]">
           <div class="-z-10 flex justify-between">
             <a href="#">
               <div
@@ -3040,117 +3130,207 @@
       </section>
     </section>
     <footer class="w-full bg-footer-background h-[448px] pt-[50px]">
-      <div class="flex w-[1290px] mx-auto h-[267px] pb-[30px] border-b border-solid border-f-border">
+      <div
+        class="flex w-[1290px] mx-auto h-[267px] pb-[30px] border-b border-solid border-f-border"
+      >
         <div>
           <h1 class="footer-header-tag">Support</h1>
           <div class="mr-[50px]">
-          <div class="footer-card1-header">
-            <div class="footer-card1-icon">
-              <i class="fa-solid fa-phone"></i>
+            <div class="footer-card1-header">
+              <div class="footer-card1-icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div>
+                <p class="footer-card1-text1">9AM - 8PM</p>
+                <h1 class="footer-card1-text2">16793</h1>
+              </div>
             </div>
-            <div>
-              <p class="footer-card1-text1">9AM - 8PM</p>
-              <h1 class="footer-card1-text2">16793</h1>
+            <div class="footer-card1-header mt-[20px]">
+              <div class="footer-card1-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div>
+                <p class="footer-card1-text1">Store Locator</p>
+                <h1 class="footer-card1-text2">Find Our Stores</h1>
+              </div>
             </div>
           </div>
-          <div class="footer-card1-header mt-[20px]">
-            <div class="footer-card1-icon">
-              <i class="fa-solid fa-location-dot"></i>
-            </div>
-            <div>
-              <p class="footer-card1-text1">Store Locator</p>
-              <h1 class="footer-card1-text2">Find Our Stores</h1>
-            </div>
-          </div>
-        </div>
         </div>
         <div class="w-[665px] h-[230px]">
           <h1 class="footer-header-tag">About Us</h1>
           <div class="flex gap-[150px] flex-wrap w-[640px]">
             <div class="flex flex-col">
-              <a href="#" class="text-last-a-tag hover:text-text-default transition-all duration-300 pb-[20px]">Affiliate Program</a>
-              <a href="#" class="text-last-a-tag hover:text-text-default transition-all duration-300 pb-[20px]">Affiliate Program</a>
-              <a href="#" class="text-last-a-tag hover:text-text-default transition-all duration-300 pb-[20px]">Affiliate Program</a>
-              <a href="#" class="text-last-a-tag hover:text-text-default transition-all duration-300 pb-[20px]">Affiliate Program</a>
+              <a
+                href="#"
+                class="text-last-a-tag hover:text-text-default transition-all duration-300 pb-[20px]"
+                >Affiliate Program</a
+              >
+              <a
+                href="#"
+                class="text-last-a-tag hover:text-text-default transition-all duration-300 pb-[20px]"
+                >Affiliate Program</a
+              >
+              <a
+                href="#"
+                class="text-last-a-tag hover:text-text-default transition-all duration-300 pb-[20px]"
+                >Affiliate Program</a
+              >
+              <a
+                href="#"
+                class="text-last-a-tag hover:text-text-default transition-all duration-300 pb-[20px]"
+                >Affiliate Program</a
+              >
             </div>
             <div class="flex flex-col">
-              <a href="#" class="text-last-a-tag hover:text-text-default transition-all duration-300 pb-[20px]">EMI Terms</a>
-              <a href="#" class="text-last-a-tag hover:text-text-default transition-all duration-300 pb-[20px]">EMI Terms</a>
-              <a href="#" class="text-last-a-tag hover:text-text-default transition-all duration-300 pb-[20px]">EMI Terms</a>
-              <a href="#" class="text-last-a-tag hover:text-text-default transition-all duration-300 pb-[20px]">EMI Terms</a>
+              <a
+                href="#"
+                class="text-last-a-tag hover:text-text-default transition-all duration-300 pb-[20px]"
+                >EMI Terms</a
+              >
+              <a
+                href="#"
+                class="text-last-a-tag hover:text-text-default transition-all duration-300 pb-[20px]"
+                >EMI Terms</a
+              >
+              <a
+                href="#"
+                class="text-last-a-tag hover:text-text-default transition-all duration-300 pb-[20px]"
+                >EMI Terms</a
+              >
+              <a
+                href="#"
+                class="text-last-a-tag hover:text-text-default transition-all duration-300 pb-[20px]"
+                >EMI Terms</a
+              >
             </div>
             <div class="flex flex-col">
-              <a href="#" class="text-last-a-tag hover:text-text-default transition-all duration-300 pb-[20px]">About Us</a>
-              <a href="#" class="text-last-a-tag hover:text-text-default transition-all duration-300 pb-[20px]">About Us</a>
-              <a href="#" class="text-last-a-tag hover:text-text-default transition-all duration-300 pb-[20px]">About Us</a>
-              <a href="#" class="text-last-a-tag hover:text-text-default transition-all duration-300 pb-[20px]">About Us</a>
+              <a
+                href="#"
+                class="text-last-a-tag hover:text-text-default transition-all duration-300 pb-[20px]"
+                >About Us</a
+              >
+              <a
+                href="#"
+                class="text-last-a-tag hover:text-text-default transition-all duration-300 pb-[20px]"
+                >About Us</a
+              >
+              <a
+                href="#"
+                class="text-last-a-tag hover:text-text-default transition-all duration-300 pb-[20px]"
+                >About Us</a
+              >
+              <a
+                href="#"
+                class="text-last-a-tag hover:text-text-default transition-all duration-300 pb-[20px]"
+                >About Us</a
+              >
             </div>
           </div>
         </div>
         <div class="pl-[50px]">
           <h1 class="footer-header-tag">Stay Connected</h1>
           <div>
-            <h1 class="text-[14px] font-medium text-white mt-[5px]">Star Tech Ltd</h1>
-            <p class="leading-[26px] text-[14px] text-last-a-tag w-[267px] mb-[10px]">Head Office: 28 Kazi Nazrul Islam Ave,Navana Zohura Square, Dhaka 1000</p>
+            <h1 class="text-[14px] font-medium text-white mt-[5px]">
+              Star Tech Ltd
+            </h1>
+            <p
+              class="leading-[26px] text-[14px] text-last-a-tag w-[267px] mb-[10px]"
+            >
+              Head Office: 28 Kazi Nazrul Islam Ave,Navana Zohura Square, Dhaka
+              1000
+            </p>
           </div>
           <div class="mb-[10px]">
-            <h1 class="text-[14px] font-medium mb-[5px] text-last-a-tag">Email:</h1>
+            <h1 class="text-[14px] font-medium mb-[5px] text-last-a-tag">
+              Email:
+            </h1>
             <p class="text-text-default text-[14px]">@gmail.com</p>
           </div>
-
         </div>
       </div>
-      <div class="w-[1290px] mx-auto h-[71px] py-[15px] border-b border-solid border-f-border flex items-center justify-between">
+      <div
+        class="w-[1290px] mx-auto h-[71px] py-[15px] border-b border-solid border-f-border flex items-center justify-between"
+      >
         <div class="flex gap-[20px] items-center">
-        <h1 class="text-[12px] text-last-a-tag ">Experience Star Tech App on your mobile:</h1>
-        <div class="w-[120px] h-[40px] border border-solid border-f-border py-[6px] pr-[10px] pl-[6px] flex items-center gap-[10px] rounded-[7px] cursor-pointer hover:border-white transition-all duration-300">
-          <i class="fa-brands fa-google-play text-white"></i>
-          <span class="box-border">
-            <p class="text-[10px] text-last-a-tag">Download on</p>
-            <p class="text-[14px] text-white leading-[15px]">Google Play</p>
-          </span>
+          <h1 class="text-[12px] text-last-a-tag">
+            Experience Star Tech App on your mobile:
+          </h1>
+          <div
+            class="w-[120px] h-[40px] border border-solid border-f-border py-[6px] pr-[10px] pl-[6px] flex items-center gap-[10px] rounded-[7px] cursor-pointer hover:border-white transition-all duration-300"
+          >
+            <i class="fa-brands fa-google-play text-white"></i>
+            <span class="box-border">
+              <p class="text-[10px] text-last-a-tag">Download on</p>
+              <p class="text-[14px] text-white leading-[15px]">Google Play</p>
+            </span>
+          </div>
+          <div
+            class="w-[120px] h-[40px] border border-solid border-f-border py-[6px] pr-[10px] pl-[6px] flex items-center gap-[10px] rounded-[7px] cursor-pointer hover:border-white transition-all duration-300"
+          >
+            <i class="fa-brands fa-app-store text-white"></i>
+            <span class="box-border">
+              <p class="text-[10px] text-last-a-tag">Download on</p>
+              <p class="text-[14px] text-white leading-[15px]">Google Play</p>
+            </span>
+          </div>
         </div>
-        <div class="w-[120px] h-[40px] border border-solid border-f-border py-[6px] pr-[10px] pl-[6px] flex items-center gap-[10px] rounded-[7px] cursor-pointer hover:border-white transition-all duration-300">
-          <i class="fa-brands fa-app-store text-white"></i>
-          <span class="box-border">
-            <p class="text-[10px] text-last-a-tag">Download on</p>
-            <p class="text-[14px] text-white leading-[15px]">Google Play</p>
-          </span>
+        <div class="flex gap-[14px]">
+          <div
+            class="w-[40px] h-[40px] rounded-full bg-last-bg cursor-pointer hover:bg-last-bg-hover transition-all duration-300 grid place-items-center text-[24px] text-white ml-[14px]"
+          >
+            <i class="fa-brands fa-whatsapp"></i>
+          </div>
+          <div
+            class="w-[40px] h-[40px] rounded-full bg-last-bg cursor-pointer hover:bg-last-bg-hover transition-all duration-300 grid place-items-center text-[24px] text-white"
+          >
+            <i class="fa-brands fa-facebook"></i>
+          </div>
+          <div
+            class="w-[40px] h-[40px] rounded-full bg-last-bg cursor-pointer hover:bg-last-bg-hover transition-all duration-300 grid place-items-center text-[24px] text-white"
+          >
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+          <div
+            class="w-[40px] h-[40px] rounded-full bg-last-bg cursor-pointer hover:bg-last-bg-hover transition-all duration-300 grid place-items-center text-[24px] text-white"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </div>
         </div>
       </div>
-      <div class="flex gap-[14px]">
-        <div class="w-[40px] h-[40px] rounded-full bg-last-bg cursor-pointer hover:bg-last-bg-hover transition-all duration-300 grid place-items-center text-[24px] text-white ml-[14px]">
-          <i class="fa-brands fa-whatsapp"></i>
-        </div>
-        <div class="w-[40px] h-[40px] rounded-full bg-last-bg cursor-pointer hover:bg-last-bg-hover transition-all duration-300 grid place-items-center text-[24px] text-white">
-          <i class="fa-brands fa-facebook"></i>
-        </div>
-        <div class="w-[40px] h-[40px] rounded-full bg-last-bg cursor-pointer hover:bg-last-bg-hover transition-all duration-300 grid place-items-center text-[24px] text-white">
-          <i class="fa-brands fa-youtube"></i>
-        </div>
-        <div class="w-[40px] h-[40px] rounded-full bg-last-bg cursor-pointer hover:bg-last-bg-hover transition-all duration-300 grid place-items-center text-[24px] text-white">
-          <i class="fa-brands fa-instagram"></i>
-        </div>
-      </div>
-      </div>
-      <div class="w-[1290px] pb-[25px] flex items-center text-[12px] text-last-a-tag mx-auto justify-between  pt-[15px]">
+      <div
+        class="w-[1290px] pb-[25px] flex items-center text-[12px] text-last-a-tag mx-auto justify-between pt-[15px]"
+      >
         <h1>© 2025 Star Tech Ltd | All rights reserved</h1>
         <p>Powered By: Star Tech</p>
       </div>
     </footer>
-    <div class="fixed right-5 bottom-[90px] z-[999999999999999] border border-solid hover:bg-last-c-bg-hover transition-all duration-300 border-last-c-bor uppercase cursor-pointer lasst-shadow grid place-items-center text-white w-[59px] h-[59px] bg-last-c-bg rounded-[4px]">
-        <div class="flex justify-center flex-col relative h-full w-full items-center">
-      <i class="fa-regular fa-square-plus text-[18px] "></i>
-      <p class="text-[10px]">Cart</p>
-      <span class="absolute -right-[10px] -top-[10px] bg-text-default text-white w-[20px] h-[20px] flex items-center justify-center rounded-full"><p>0</p></span>
+    <div
+      class="fixed right-5 bottom-[90px] z-[999999999999999] border border-solid hover:bg-last-c-bg-hover transition-all duration-300 border-last-c-bor uppercase cursor-pointer lasst-shadow grid place-items-center text-white w-[59px] h-[59px] bg-last-c-bg rounded-[4px] max-[1318px]:hidden"
+    >
+      <div
+        class="flex justify-center flex-col relative h-full w-full items-center"
+      >
+        <i class="fa-regular fa-square-plus text-[18px]"></i>
+        <p class="text-[10px]">Cart</p>
+        <span
+          class="absolute -right-[10px] -top-[10px] bg-text-default text-white w-[20px] h-[20px] flex items-center justify-center rounded-full"
+          ><p>0</p></span
+        >
+      </div>
     </div>
+    <div
+      class="fixed right-5 bottom-5 z-[999999999999999] border border-solid hover:bg-last-c-bg-hover transition-all duration-300 border-last-c-bor uppercase cursor-pointer lasst-shadow grid place-items-center text-white w-[59px] h-[59px] bg-last-c-bg rounded-[4px] max-[1318px]:hidden"
+    >
+      <div
+        class="flex justify-center flex-col relative h-full w-full items-center"
+      >
+        <i class="fa-regular fa-square-plus text-[18px]"></i>
+        <p class="text-[10px]">Cart</p>
+        <span
+          class="absolute -right-[10px] -top-[10px] bg-text-default text-white w-[20px] h-[20px] flex items-center justify-center rounded-full"
+          ><p>0</p></span
+        >
+      </div>
     </div>
-    <div class="fixed right-5 bottom-5 z-[999999999999999] border border-solid hover:bg-last-c-bg-hover transition-all duration-300 border-last-c-bor uppercase cursor-pointer lasst-shadow grid place-items-center text-white w-[59px] h-[59px] bg-last-c-bg rounded-[4px]">
-        <div class="flex justify-center flex-col relative h-full w-full items-center">
-      <i class="fa-regular fa-square-plus text-[18px] "></i>
-      <p class="text-[10px]">Cart</p>
-      <span class="absolute -right-[10px] -top-[10px] bg-text-default text-white w-[20px] h-[20px] flex items-center justify-center rounded-full"><p>0</p></span>
-    </div>
-    </div>
-</body>
+  </body>
 </html>

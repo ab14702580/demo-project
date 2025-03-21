@@ -12,9 +12,9 @@ module.exports = {
         "p-blue": "#01132d",
         "vs-blue": "#3749BB",
         "af-b": "#F2F4F8",
-        "cos": "#D51E0B",
+        cos: "#D51E0B",
         "sv-bu": "#3749bb0d",
-        "mn": "#666666",
+        mn: "#666666",
         "dis-c": "#6E2594",
         "footer-background": "#081621",
         "f-border": "#ffffff1a",
@@ -24,7 +24,7 @@ module.exports = {
         "last-c-bg": "#081621",
         "last-c-bor": "#ffffff33",
         "last-c-bg-hover": "#3749BB",
-
+        "next-text": "#ffffff80",
       },
       animation: {
         infinite_color: "infinite_color 2s ease infinite",
@@ -48,8 +48,9 @@ module.exports = {
       400: "400ms",
     },
     screens: {
-      '1336m': '1336px',
-      '1336': '1336px',
+      "1336m": "1336px",
+      '1336': "1336px",
+      '1400': "1400px",
     },
   },
   plugins: [],
