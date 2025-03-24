@@ -2174,6 +2174,11 @@ video {
 }
 
 @media not all and (min-width: 1318px) {
+  .max-13\:re-p-c {
+    max-width: 24.2666%;
+    flex-basis: 24.2666%;
+  }
+
   .max-13\:de-w {
     margin-left: auto;
     margin-right: auto;
