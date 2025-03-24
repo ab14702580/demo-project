@@ -52,7 +52,7 @@
     @apply text-left leading-[26px];
   }
   .footer-card1-header{
-    @apply py-[10px] cursor-pointer border border-solid border-f-border w-[272px] max-13:w-[97%] h-[70px] flex items-center relative rounded-[50px] before:absolute overflow-hidden before:-z-10 z-10 before:left-0 before:top-0 before:h-full before:w-full before:bg-black before:opacity-0 before:transition-all before:duration-300 hover:before:opacity-40 transition-all duration-300 hover:border-text-default;
+    @apply py-[10px] cursor-pointer border border-solid border-f-border w-[272px] max-13:w-[97] h-[70px] flex items-center relative rounded-[50px] before:absolute overflow-hidden before:-z-10 z-10 before:left-0 before:top-0 before:h-full before:w-full before:bg-black before:opacity-0 before:transition-all before:duration-300 hover:before:opacity-40 transition-all duration-300 hover:border-text-default;
   }
   .footer-card1-icon{
     @apply w-[55px] h-[40px] pr-[10px] pl-[20px] mr-[20px] border-r border-solid border-f-border grid place-items-center text-white;
