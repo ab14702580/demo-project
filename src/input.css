@@ -16,7 +16,7 @@
     @apply w-full hover:bg-text-default hover:text-white transition-colors duration-300 cursor-pointer;
   }
   .multiple-card-design {
-    @apply w-[50px] h-[50px] bg-text-default grid place-items-center rounded-full mr-5;
+    @apply min-w-[50px] h-[50px] bg-text-default grid place-items-center rounded-full mr-5;
   }
   .card-before-design {
     @apply relative z-10 before:absolute before:bottom-[100%] before:left-0 before:w-full before:h-full before:transition-all before:duration-300 hover:before:bottom-[0%] before:-z-10 before:bg-black hover:text-white transition-all duration-300 overflow-hidden;
@@ -67,7 +67,7 @@
     @apply mb-[30px] text-[14px] tracking-[4px] text-white uppercase font-medium;
   }
   .res-w-c{
-    @apply w-[13.340099%];
+    @apply w-[13.340099%] max-11:basis-[15.6%];
   }
   .res-w-c-f{
     @apply w-full;
@@ -80,6 +80,9 @@
   }
   .re-s{
     @apply basis-[25%] max-w-[25%] grow-[1] shrink-[1];
+  }
+  .res-rgb-c{
+    @apply max-85:basis-[48%] max-85:max-w-[48%] max-85:w-1/2 max-85:min-w-[48%];
   }
 }
 @layer utilities {
