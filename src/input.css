@@ -67,7 +67,7 @@
     @apply mb-[30px] text-[14px] tracking-[4px] text-white uppercase font-medium;
   }
   .res-w-c{
-    @apply w-[13.340099%] max-11:basis-[15.6%] max-85:basis-[18.6%] max-85:max-w-[18.6%] max-69:basis-[23.6%] max-69:max-w-[23.6%] max-70:max-w-[23.4%] max-86:max-w-[23%] max-57:basis-[31%] max-57:max-w-[31%] max-400:basis-[46%] max-400:max-w-[46%] max-260:basis-[98%] max-260:max-w-[98%];
+    @apply w-[13.340099%] max-11:basis-[15.6%] max-85:basis-[18.6%] max-85:max-w-[18.6%] max-69:basis-[23.6%] max-69:max-w-[23.6%] max-70:max-w-[23.4%] max-86:max-w-[23%] max-57:basis-[31%] max-57:max-w-[31%] max-400:basis-[48%] max-400:max-w-[48%] max-260:basis-[98%] max-260:max-w-[98%];
   }
   .res-w-c-f{
     @apply w-full;

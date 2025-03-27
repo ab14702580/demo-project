@@ -2009,8 +2009,8 @@ video {
 
   @media not all and (min-width: 400px) {
     .max-13\:res-w-c {
-      max-width: 46%;
-      flex-basis: 46%;
+      max-width: 48%;
+      flex-basis: 48%;
     }
   }
 
