@@ -694,6 +694,24 @@ video {
   }
 }
 
+@media not all and (min-width: 768px) {
+  .product1-header {
+    height: 350px;
+  }
+}
+
+@media not all and (min-width: 442px) {
+  .product1-header {
+    height: 320px;
+  }
+}
+
+@media not all and (min-width: 385px) {
+  .product1-header {
+    height: 295px;
+  }
+}
+
 .product1-img {
   position: relative;
   height: 253px;
@@ -1996,11 +2014,26 @@ video {
 
   @media not all and (min-width: 586px) {
     .max-13\:res-w-c {
-      max-width: 23%;
+      max-width: 23.3%;
+      flex-basis: 23.3%;
     }
   }
 
   @media not all and (min-width: 557px) {
+    .max-13\:res-w-c {
+      max-width: 31.7%;
+      flex-basis: 32%;
+    }
+  }
+
+  @media not all and (min-width: 510px) {
+    .max-13\:res-w-c {
+      max-width: 31.4%;
+      flex-basis: 32%;
+    }
+  }
+
+  @media not all and (min-width: 430px) {
     .max-13\:res-w-c {
       max-width: 31%;
       flex-basis: 31%;
@@ -2014,10 +2047,17 @@ video {
     }
   }
 
+  @media not all and (min-width: 313px) {
+    .max-13\:res-w-c {
+      max-width: 47.55%;
+      flex-basis: 48%;
+    }
+  }
+
   @media not all and (min-width: 260px) {
     .max-13\:res-w-c {
-      max-width: 98%;
-      flex-basis: 98%;
+      max-width: 100%;
+      flex-basis: 100%;
     }
   }
 
@@ -2034,6 +2074,13 @@ video {
     .max-13\:re-p-c {
       max-width: 49%;
       flex-basis: 49%;
+    }
+  }
+
+  @media not all and (min-width: 313px) {
+    .max-13\:re-p-c {
+      max-width: 60%;
+      flex-basis: 60%;
     }
   }
 }
@@ -2684,6 +2731,10 @@ video {
     align-items: center;
   }
 
+  .max-69\:justify-center {
+    justify-content: center;
+  }
+
   .max-69\:gap-\[10px\] {
     gap: 10px;
   }
@@ -2712,6 +2763,54 @@ video {
 
   .max-69\:text-\[22px\] {
     font-size: 22px;
+  }
+}
+
+@media not all and (min-width: 520px) {
+  .max-520\:gap-\[9px\] {
+    gap: 9px;
+  }
+}
+
+@media not all and (min-width: 500px) {
+  .max-500\:max-w-full {
+    max-width: 100%;
+  }
+
+  .max-500\:basis-\[100\%\] {
+    flex-basis: 100%;
+  }
+
+  .max-500\:justify-center {
+    justify-content: center;
+  }
+}
+
+@media not all and (min-width: 468px) {
+  .max-468\:gap-\[8px\] {
+    gap: 8px;
+  }
+}
+
+@media not all and (min-width: 416px) {
+  .max-416\:gap-\[7px\] {
+    gap: 7px;
+  }
+}
+
+@media not all and (min-width: 363px) {
+  .max-363\:gap-\[6px\] {
+    gap: 6px;
+  }
+}
+
+@media not all and (min-width: 313px) {
+  .max-313\:justify-center {
+    justify-content: center;
+  }
+
+  .max-313\:gap-\[20px\] {
+    gap: 20px;
   }
 }
 
