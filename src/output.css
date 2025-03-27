@@ -2000,10 +2000,24 @@ video {
     }
   }
 
-  @media not all and (min-width: 469px) {
+  @media not all and (min-width: 557px) {
     .max-13\:res-w-c {
       max-width: 31%;
       flex-basis: 31%;
+    }
+  }
+
+  @media not all and (min-width: 400px) {
+    .max-13\:res-w-c {
+      max-width: 46%;
+      flex-basis: 46%;
+    }
+  }
+
+  @media not all and (min-width: 260px) {
+    .max-13\:res-w-c {
+      max-width: 98%;
+      flex-basis: 98%;
     }
   }
 
