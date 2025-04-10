@@ -24,64 +24,64 @@
   .before-border {
     @apply before:absolute before:w-[1px] before:h-[90%] before:top-[5%] before:left-[50%] before:bg-af-b;
   }
-  .dis-cound{
+  .dis-cound {
     @apply w-[109px] h-[20px] bg-dis-c text-[12px] text-white rounded-r-[50px] absolute left-0 top-[15px] ml-[-68px] transition-all duration-300 z-10;
   }
-  .product1-header{
+  .product1-header {
     @apply w-[250px] h-[384px] bg-white flex flex-col rounded-[5px] relative overflow-hidden max-99:h-[320px] max-69:h-[350px] max-442:h-[320px] max-385:h-[295px];
   }
-  .product1-img{
+  .product1-img {
     @apply w-full h-[253px] max-85:h-auto p-[20px] border-b-[3px] border-solid border-[#F9F9FD] relative before:absolute before:w-full before:h-full before:bg-black before:left-0 before:bottom-[100%] before:opacity-20 before:transition-all before:duration-300;
   }
-  .product1-content{
+  .product1-content {
     @apply p-[15px] h-[60px] flex flex-col;
   }
-  .product1-text1{
+  .product1-text1 {
     @apply font-medium text-[15px] mb-[30px] transition-all duration-300 max-99:mb-[15px];
   }
-  .link-tag-design{
+  .link-tag-design {
     @apply font-medium text-text-default underline;
   }
-  .last-header-content{
+  .last-header-content {
     @apply text-[22px] mb-[20px] font-medium text-left;
   }
-  .last-header-content2{
+  .last-header-content2 {
     @apply text-[18px] font-medium text-left mt-[25px] mb-[12px];
   }
-  .last-header-para{
+  .last-header-para {
     @apply text-left leading-[26px];
   }
-  .footer-card1-header{
+  .footer-card1-header {
     @apply py-[10px] cursor-pointer border border-solid border-f-border w-[272px] max-13:w-[97] h-[70px] flex items-center relative rounded-[50px] before:absolute overflow-hidden before:-z-10 z-10 before:left-0 before:top-0 before:h-full before:w-full before:bg-black before:opacity-0 before:transition-all before:duration-300 hover:before:opacity-40 transition-all duration-300 hover:border-text-default;
   }
-  .footer-card1-icon{
+  .footer-card1-icon {
     @apply w-[55px] h-[40px] pr-[10px] pl-[20px] mr-[20px] border-r border-solid border-f-border grid place-items-center text-white;
   }
-  .footer-card1-text1{
+  .footer-card1-text1 {
     @apply mb-[3px] text-[#838383] text-[12px];
   }
-  .footer-card1-text2{
+  .footer-card1-text2 {
     @apply font-medium text-text-default text-[20px];
   }
-  .footer-header-tag{
+  .footer-header-tag {
     @apply mb-[30px] text-[14px] tracking-[4px] text-white uppercase font-medium;
   }
-  .res-w-c{
+  .res-w-c {
     @apply w-[13.340099%] max-11:basis-[15.6%] max-85:basis-[18.6%] max-85:max-w-[18.6%] max-69:basis-[23.6%] max-69:max-w-[23.6%] max-70:max-w-[23.4%] max-86:basis-[23.3%] max-86:max-w-[23.3%] max-57:basis-[32%] max-57:max-w-[31.7%] max-510:basis-[32%] max-510:max-w-[31.4%] max-430:basis-[31%] max-430:max-w-[31%] max-313:basis-[48%] max-313:max-w-[47.55%] max-400:basis-[48%] max-400:max-w-[48%] max-260:basis-[100%] max-260:max-w-[100%];
   }
-  .res-w-c-f{
+  .res-w-c-f {
     @apply w-full;
   }
-  .re-p-c{
+  .re-p-c {
     @apply basis-[24.2666%] max-w-[24.2666%] max-69:basis-[49%] max-69:max-w-[49%] max-313:basis-[60%] max-313:max-w-[60%];
   }
-  .de-w{
+  .de-w {
     @apply w-[96%] mx-auto;
   }
-  .re-s{
+  .re-s {
     @apply basis-[25%] max-w-[25%] grow-[1] shrink-[1];
   }
-  .res-rgb-c{
+  .res-rgb-c {
     @apply max-85:basis-[49.7%] max-85:w-1/2;
   }
 }
@@ -270,37 +270,37 @@
     font-size: 17px;
     font-weight: 600;
     font-family: sans-serif;
-    color: #D51E0B;
+    color: #d51e0b;
   }
-  .custom-t2{
+  .custom-t2 {
     font-size: 12px;
     text-decoration: line-through;
     font-weight: 600;
     font-family: sans-serif;
     color: #666666;
   }
-  .icon-border{
+  .icon-border {
     color: transparent;
     font-size: 17px;
     -webkit-text-stroke: 2px #f51e45;
     transition: color 300ms linear;
   }
-  .icon-border:active{
+  .icon-border:active {
     color: #f51e45;
   }
-  .active{
+  .active {
     color: #f51e45;
   }
-  .last-shadow{
+  .last-shadow {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1), -5px 5px 10px rgba(0, 0, 0, 0.1);
   }
-  .responsive-box{
+  .responsive-box {
     box-shadow: 5px 0 20px rgba(0, 0, 0, 0.3);
   }
-  .icon-active::after{
+  .icon-active::after {
     display: none;
   }
-  .next-c-s{
-    box-shadow: 0 0 30px rgba(0,0,0, 0.2), -1px 0 0 0 rgba(255, 255, 255, 0.2);
+  .next-c-s {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2), -1px 0 0 0 rgba(255, 255, 255, 0.2);
   }
 }
