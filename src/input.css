@@ -303,4 +303,9 @@
   .next-c-s {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.2), -1px 0 0 0 rgba(255, 255, 255, 0.2);
   }
+  .calc-property{
+    flex-basis: 50%;
+    min-width: calc(50% - 45px);
+    overflow: hidden;
+  }
 }
