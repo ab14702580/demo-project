@@ -1,0 +1,1832 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="../assets/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="input.css" />
+    <link rel="stylesheet" href="output.css" />
+    <title>Ster Tach</title>
+  </head>
+  <body class="box-border bg-[#F2F4F8]">
+    <!--header part-->
+    <header class="w-[100%] max-[1324px]:hidden">
+      <div class="w-[100%] h-[82px] bg-header-color py-[15px]">
+        <div
+          class="w-[1335px] max-[1335px]:w-full mx-auto px-[15px] flex items-center"
+        >
+          <div class="logo w-[160px]">
+            <img
+              src="../assets/logo.png"
+              alt="logo here"
+              class="w-[117px] h-[52px]"
+            />
+          </div>
+          <div class="search relative">
+            <form action="#" method="POST">
+              <input
+                type="text"
+                class="appearance-none w-[580px] pr-10 pl-5 rounded-[4px] h-[42px] border-none outline-none"
+                placeholder="Search"
+              /><a href="#"
+                ><span
+                  class="w-[24px] h-[42px] text-base absolute right-1 top-[8px] cursor-pointer"
+                >
+                  <i class="fa-solid fa-magnifying-glass"></i></span
+              ></a>
+            </form>
+          </div>
+          <div class="pl-[9px] flex items-center">
+            <div class="flex items-center pl-[18px] gap-2.5">
+              <img
+                src="../assets/image1.png"
+                alt="icon here"
+                class="w-[34px] h-[30px]"
+              />
+              <span class="text-white">
+                <p class="text-[15px]">Offers</p>
+                <p class="text-[11px] text-black-modify">Latest Offers</p>
+              </span>
+            </div>
+            <a href="#">
+              <div class="flex items-center ml-[27px]">
+                <i
+                  class="fa-solid fa-bolt-lightning text-text-default text-lg mr-[19px] animate-infinite_color"
+                ></i>
+                <span class="text-white">
+                  <p class="text-[15px] tracking-tight">Happy Hour</p>
+                  <p class="text-[11px] text-black-modify">Special Deals</p>
+                </span>
+              </div>
+            </a>
+            <a href="#">
+              <div class="flex items-center ml-[27px]">
+                <i
+                  class="fa-solid fa-user text-text-default text-lg mr-[19px]"
+                ></i>
+                <div class="text-white">
+                  <a href="#">
+                    <p class="text-[15px] tracking-tight">Account</p>
+                  </a>
+                  <div class="mt-[-6px]">
+                    <a
+                      href="#"
+                      class="text-[11px] text-black-modify hover:text-[#ef4a23] duration-200"
+                      >Register</a
+                    >
+                    <span class="text-[11px] text-black-modify cursor-pointer"
+                      >or</span
+                    >
+                    <a
+                      href="#"
+                      class="text-[11px] text-black-modify hover:text-[#ef4a23] duration-200"
+                      >Login</a
+                    >
+                  </div>
+                </div>
+                <div>
+                  <form
+                    action="#"
+                    method="post"
+                    class="text-white text-[15px] font-bold ml-6"
+                  >
+                    <button
+                      class="relative h-[42px] px-5 cursor-pointer text-[14px] rounded-[4px] border-none overflow-hidden z-0 linear-gradient-mix animate-infinite_background_color before:w-full before:h-full before:bg-[#1C2F84] before:opacity-40 before:bottom-[100%] hover:before:bottom-[0%] before:left-0 before:-z-20 before:duration-500 before:transition-all before:cursor-pointer before:absolute"
+                    >
+                      PC Builder
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div
+      class="header-sticky sticky-nav navbar-shadow h-[50px] bg-white w-full mx-auto max-[1324px]:hidden"
+    >
+      <div>
+        <nav class="w-[98%] mx-auto">
+          <div
+            class="w-[1330px] max-[1335px]:w-full min-[1400px]:w-[1370px] mx-auto pr-[15px] pl-[15px] mr-auto ml-auto"
+          >
+            <ul class="flex">
+              <!--Desktop nav part-->
+
+              <li class="relative">
+                <a href="#" class="nav-design peer/nav-1-display-design pb-3"
+                  >Desktop</a
+                >
+                <div
+                  class="absolute left-2.5 invisible peer-hover/nav-1-display-design:visible transition-all duration-100 hover:visible w-[200px] opacity-0 peer-hover/nav-1-display-design:opacity-100 bg-white shadow-box hover:opacity-100"
+                >
+                  <ul class="py-[5px] z-50 bg-white shadow-box w-full">
+                    <li
+                      class="group/nav-5-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                    >
+                      <a href="#" class="next-nav-design flex items-center"
+                        >Desktop Offer</a
+                      >
+                    </li>
+                    <li
+                      class="group/nav-2-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                    >
+                      <a href="#" class="next-nav-design flex items-center"
+                        >Star PC</a
+                      >
+                      <!--double nav ber-->
+                      <ul
+                        class="absolute left-[200px] top-[-5px] w-[200px] py-[5px] z-50 bg-white shadow-box group-hover/nav-2-display-design:text-black invisible opacity-0"
+                      >
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Intel PC</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Ryzen PC</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li
+                      class="group/nav-3-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                    >
+                      <a href="#" class="next-nav-design flex items-center"
+                        >Gaming PC</a
+                      >
+                      <!--next nav bar-->
+                      <ul
+                        class="absolute left-[200px] top-[-5px] w-[200px] py-[5px] z-50 bg-white shadow-box group-hover/nav-3-display-design:text-black invisible opacity-0"
+                      >
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Intel PC</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Ryzen PC</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li
+                      class="group/nav-4-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                    >
+                      <a href="#" class="next-nav-design flex items-center"
+                        >Brand PC</a
+                      >
+                      <!--nav bar next-->
+                      <ul
+                        class="absolute left-[200px] top-[-5px] w-[200px] py-[5px] z-50 bg-white shadow-box group-hover/nav-4-display-design:text-black invisible opacity-0"
+                      >
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Acer</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Asus</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Dell</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >HP</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Lenovo</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >MSI</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li
+                      class="group/nav-5-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                    >
+                      <a href="#" class="next-nav-design flex items-center"
+                        >All-in-One PC</a
+                      >
+                      <!--nav bar next-->
+                      <ul
+                        class="absolute left-[200px] top-[-5px] w-[200px] py-[5px] z-50 bg-white shadow-box group-hover/nav-5-display-design:text-black invisible opacity-0"
+                      >
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >DELL</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >HP</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >ASUS</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >LENOVO</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Walton</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Teclast</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li
+                      class="group/nav-6-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                    >
+                      <a href="#" class="next-nav-design flex items-center"
+                        >Portable Mini PC</a
+                      >
+                      <!--nav bar next-->
+                      <ul
+                        class="absolute left-[200px] top-[-5px] w-[200px] py-[5px] z-50 bg-white shadow-box group-hover/nav-6-display-design:text-black invisible opacity-0"
+                      >
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center">
+                            Asus</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Zotac</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="py-[4px] px-[15px] double-nav-design">
+                      <a href="#" class="next-nav-design flex items-center"
+                        >Apple Mac Mini</a
+                      >
+                    </li>
+                    <li class="py-[4px] px-[15px] double-nav-design">
+                      <a href="#" class="next-nav-design flex items-center"
+                        >Apple iMac</a
+                      >
+                    </li>
+                    <li class="py-[4px] px-[15px] double-nav-design">
+                      <a href="#" class="next-nav-design flex items-center"
+                        >Apple Mac Studio</a
+                      >
+                    </li>
+                    <li class="py-[4px] px-[15px] double-nav-design">
+                      <a href="#" class="next-nav-design flex items-center"
+                        >Apple Mac Pro</a
+                      >
+                    </li>
+                    <li class="py-[4px] px-[15px] double-nav-design">
+                      <a
+                        href="#"
+                        class="next-nav-design underline-design flex items-center"
+                        >Show All Desktop</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <!--Laptop nav part-->
+
+              <li class="relative">
+                <a href="#" class="nav-design peer/nav-1-display-design pb-3"
+                  >Laptop</a
+                >
+                <div
+                  class="absolute left-2.5 invisible peer-hover/nav-1-display-design:visible transition-all duration-100 hover:visible w-[200px] opacity-0 peer-hover/nav-1-display-design:opacity-100 bg-white shadow-box hover:opacity-100"
+                >
+                  <ul class="py-[5px] z-50 bg-white shadow-box w-full">
+                    <li class="py-[4px] px-[15px] double-nav-design">
+                      <a href="#" class="next-nav-design flex items-center"
+                        >All Laptop</a
+                      >
+                    </li>
+                    <li
+                      class="group/nav-2-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                    >
+                      <a href="#" class="next-nav-design flex items-center"
+                        >Gaming Laptop</a
+                      >
+                      <!--double nav ber-->
+                      <ul
+                        class="absolute left-[200px] top-[-5px] w-[200px] py-[5px] z-50 bg-white shadow-box group-hover/nav-2-display-design:text-black invisible opacity-0"
+                      >
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Intel PC</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Ryzen PC</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li
+                      class="group/nav-3-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                    >
+                      <a href="#" class="next-nav-design flex items-center"
+                        >Gaming PC</a
+                      >
+                      <!--next nav bar-->
+                      <ul
+                        class="absolute left-[200px] top-[-5px] w-[200px] py-[5px] z-50 bg-white shadow-box group-hover/nav-3-display-design:text-black invisible opacity-0"
+                      >
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Intel PC</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Ryzen PC</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li
+                      class="group/nav-4-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                    >
+                      <a href="#" class="next-nav-design flex items-center"
+                        >Brand PC</a
+                      >
+                      <!--nav bar next-->
+                      <ul
+                        class="absolute left-[200px] top-[-5px] w-[200px] py-[5px] z-50 bg-white shadow-box group-hover/nav-4-display-design:text-black invisible opacity-0"
+                      >
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Acer</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Asus</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Dell</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >HP</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Lenovo</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >MSI</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li
+                      class="group/nav-5-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                    >
+                      <a href="#" class="next-nav-design flex items-center"
+                        >All-in-One PC</a
+                      >
+                      <!--nav bar next-->
+                      <ul
+                        class="absolute left-[200px] top-[-5px] w-[200px] py-[5px] z-50 bg-white shadow-box group-hover/nav-5-display-design:text-black invisible opacity-0"
+                      >
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >DELL</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >HP</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >ASUS</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >LENOVO</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Walton</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Teclast</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li
+                      class="group/nav-6-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                    >
+                      <a href="#" class="next-nav-design flex items-center"
+                        >Portable Mini PC</a
+                      >
+                      <!--nav bar next-->
+                      <ul
+                        class="absolute left-[200px] top-[-5px] w-[200px] py-[5px] z-50 bg-white shadow-box group-hover/nav-6-display-design:text-black invisible opacity-0"
+                      >
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center">
+                            Asus</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Zotac</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="py-[4px] px-[15px] double-nav-design">
+                      <a href="#" class="next-nav-design flex items-center"
+                        >Apple Mac Mini</a
+                      >
+                    </li>
+                    <li class="py-[4px] px-[15px] double-nav-design">
+                      <a href="#" class="next-nav-design flex items-center"
+                        >Apple iMac</a
+                      >
+                    </li>
+                    <li class="py-[4px] px-[15px] double-nav-design">
+                      <a href="#" class="next-nav-design flex items-center"
+                        >Apple Mac Studio</a
+                      >
+                    </li>
+                    <li class="py-[4px] px-[15px] double-nav-design">
+                      <a href="#" class="next-nav-design flex items-center"
+                        >Apple Mac Pro</a
+                      >
+                    </li>
+                    <li class="py-[4px] px-[15px] double-nav-design">
+                      <a href="#" class="next-nav-design underline-design"
+                        >Show All Desktop</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <!--Component nav part-->
+
+              <li class="relative">
+                <a
+                  href="#"
+                  class="nav-design peer/nav-1-display-design pb-3 flex items-center"
+                  >Component</a
+                >
+                <div
+                  class="absolute left-2.5 invisible peer-hover/nav-1-display-design:visible transition-all duration-100 hover:visible w-[200px] opacity-0 peer-hover/nav-1-display-design:opacity-100 bg-white shadow-box hover:opacity-100"
+                >
+                  <ul class="py-[5px] z-50 bg-white shadow-box w-full">
+                    <li
+                      class="group/nav-2-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                    >
+                      <a href="#" class="next-nav-design flex items-center"
+                        >Processor</a
+                      >
+                      <!--double nav ber-->
+                      <ul
+                        class="absolute left-[200px] top-[-5px] w-[200px] py-[5px] z-50 bg-white shadow-box group-hover/nav-2-display-design:text-black invisible opacity-0"
+                      >
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >CPU Cooler</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Ryzen PC</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li
+                      class="group/nav-3-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                    >
+                      <a href="#" class="next-nav-design flex items-center"
+                        >CPU Cooler</a
+                      >
+                      <!--next nav bar-->
+                      <ul
+                        class="absolute left-[200px] top-[-5px] py-[5px] z-50 bg-white shadow-box group-hover/nav-3-display-design:text-black invisible opacity-0 flex justify-between w-[400px]"
+                      >
+                        <div class="w-[200px]">
+                          <li class="py-[4px] px-[15px] double-nav-design">
+                            <a
+                              href="#"
+                              class="next-nav-design flex items-center"
+                              >Intel PC</a
+                            >
+                          </li>
+                          <li class="py-[4px] px-[15px] double-nav-design">
+                            <a
+                              href="#"
+                              class="next-nav-design flex items-center"
+                              >Ryzen PC</a
+                            >
+                          </li>
+                        </div>
+                        <div class="w-[200px]">
+                          <li class="py-[4px] px-[15px] double-nav-design">
+                            <a
+                              href="#"
+                              class="next-nav-design flex items-center"
+                              >Intel PC</a
+                            >
+                          </li>
+                          <li class="py-[4px] px-[15px] double-nav-design">
+                            <a
+                              href="#"
+                              class="next-nav-design flex items-center"
+                              >Ryzen PC</a
+                            >
+                          </li>
+                        </div>
+                      </ul>
+                    </li>
+                    <li
+                      class="group/nav-4-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                    >
+                      <a href="#" class="next-nav-design flex items-center"
+                        >Water / Liquid Cooling</a
+                      >
+                      <!--nav bar next-->
+                      <ul
+                        class="absolute left-[200px] top-[-5px] w-[200px] py-[5px] z-50 bg-white shadow-box group-hover/nav-4-display-design:text-black invisible opacity-0"
+                      >
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Acer</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Asus</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Dell</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >HP</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Lenovo</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >MSI</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li
+                      class="group/nav-5-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                    >
+                      <a href="#" class="next-nav-design flex items-center"
+                        >Motherboard</a
+                      >
+                      <!--nav bar next-->
+                      <ul
+                        class="absolute left-[200px] top-[-5px] w-[200px] py-[5px] z-50 bg-white shadow-box group-hover/nav-5-display-design:text-black invisible opacity-0"
+                      >
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >DELL</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >HP</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >ASUS</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >LENOVO</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Walton</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Teclast</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li
+                      class="group/nav-5-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                    >
+                      <a href="#" class="next-nav-design flex items-center"
+                        >Graphics card</a
+                      >
+                      <!--nav bar next-->
+                      <ul
+                        class="absolute left-[200px] top-[-5px] w-[200px] py-[5px] z-50 bg-white shadow-box group-hover/nav-5-display-design:text-black invisible opacity-0"
+                      >
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >DELL</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >HP</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >ASUS</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >LENOVO</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Walton</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Teclast</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li
+                      class="group/nav-5-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                    >
+                      <a href="#" class="next-nav-design flex items-center"
+                        >RAM (Desktop)</a
+                      >
+                      <!--nav bar next-->
+                      <ul
+                        class="absolute left-[200px] top-[-5px] w-[200px] py-[5px] z-50 bg-white shadow-box group-hover/nav-5-display-design:text-black invisible opacity-0"
+                      >
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >DELL</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >HP</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >ASUS</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >LENOVO</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Walton</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Teclast</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li
+                      class="group/nav-5-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                    >
+                      <a href="#" class="next-nav-design flex items-center"
+                        >RAM (Laptop)</a
+                      >
+                      <!--nav bar next-->
+                      <ul
+                        class="absolute left-[200px] top-[-5px] w-[200px] py-[5px] z-50 bg-white shadow-box group-hover/nav-5-display-design:text-black invisible opacity-0"
+                      >
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >DELL</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >HP</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >ASUS</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >LENOVO</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Walton</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Teclast</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li
+                      class="group/nav-5-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                    >
+                      <a href="#" class="next-nav-design flex items-center"
+                        >Power Supply</a
+                      >
+                      <!--nav bar next-->
+                      <ul
+                        class="absolute left-[200px] top-[-5px] w-[400px] py-[5px] z-50 bg-white shadow-box group-hover/nav-5-display-design:text-black invisible opacity-0 flex justify-between"
+                      >
+                        <div class="w-[200px]">
+                          <li class="py-[4px] px-[15px] double-nav-design">
+                            <a
+                              href="#"
+                              class="next-nav-design flex items-center"
+                              >DELL</a
+                            >
+                          </li>
+                          <li class="py-[4px] px-[15px] double-nav-design">
+                            <a
+                              href="#"
+                              class="next-nav-design flex items-center"
+                              >HP</a
+                            >
+                          </li>
+                        </div>
+                        <div class="w-[200px]">
+                          <li class="py-[4px] px-[15px] double-nav-design">
+                            <a
+                              href="#"
+                              class="next-nav-design flex items-center"
+                              >ASUS</a
+                            >
+                          </li>
+                          <li class="py-[4px] px-[15px] double-nav-design">
+                            <a
+                              href="#"
+                              class="next-nav-design flex items-center"
+                              >LENOVO</a
+                            >
+                          </li>
+                        </div>
+                      </ul>
+                    </li>
+
+                    <li
+                      class="group/nav-5-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                    >
+                      <a href="#" class="next-nav-design flex items-center"
+                        >Hard Disk Drive</a
+                      >
+                      <!--nav bar next-->
+                      <ul
+                        class="absolute left-[200px] top-[-5px] w-[200px] py-[5px] z-50 bg-white shadow-box group-hover/nav-5-display-design:text-black invisible opacity-0"
+                      >
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >DELL</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >HP</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >ASUS</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >LENOVO</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Walton</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Teclast</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li
+                      class="group/nav-5-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                    >
+                      <a href="#" class="next-nav-design flex items-center"
+                        >SSD</a
+                      >
+                      <!--nav bar next-->
+                      <ul
+                        class="absolute left-[200px] top-[-5px] w-[400px] py-[5px] z-50 bg-white shadow-box group-hover/nav-5-display-design:text-black invisible opacity-0 flex justify-between"
+                      >
+                        <div class="w-[200px]">
+                          <li class="py-[4px] px-[15px] double-nav-design">
+                            <a
+                              href="#"
+                              class="next-nav-design flex items-center"
+                              >DELL</a
+                            >
+                          </li>
+                          <li class="py-[4px] px-[15px] double-nav-design">
+                            <a
+                              href="#"
+                              class="next-nav-design flex items-center"
+                              >HP</a
+                            >
+                          </li>
+                        </div>
+                        <div class="w-[200px]">
+                          <li class="py-[4px] px-[15px] double-nav-design">
+                            <a
+                              href="#"
+                              class="next-nav-design flex items-center"
+                              >ASUS</a
+                            >
+                          </li>
+                          <li class="py-[4px] px-[15px] double-nav-design">
+                            <a
+                              href="#"
+                              class="next-nav-design flex items-center"
+                              >LENOVO</a
+                            >
+                          </li>
+                        </div>
+                      </ul>
+                    </li>
+                    <li
+                      class="group/nav-5-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                    >
+                      <a href="#" class="next-nav-design flex items-center"
+                        >Portable SSD</a
+                      >
+                      <!--nav bar next-->
+                      <ul
+                        class="absolute left-[200px] top-[-5px] w-[200px] py-[5px] z-50 bg-white shadow-box group-hover/nav-5-display-design:text-black invisible opacity-0"
+                      >
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >DELL</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >HP</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >ASUS</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >LENOVO</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Walton</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Teclast</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li
+                      class="group/nav-5-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                    >
+                      <a href="#" class="next-nav-design flex items-center"
+                        >Casing</a
+                      >
+                      <!--nav bar next-->
+                      <ul
+                        class="absolute left-[200px] top-[-5px] w-[400px] py-[5px] z-50 bg-white shadow-box group-hover/nav-5-display-design:text-black invisible opacity-0 flex justify-between"
+                      >
+                        <div class="w-[200px]">
+                          <li class="py-[4px] px-[15px] double-nav-design">
+                            <a
+                              href="#"
+                              class="next-nav-design flex items-center"
+                              >DELL</a
+                            >
+                          </li>
+                          <li class="py-[4px] px-[15px] double-nav-design">
+                            <a
+                              href="#"
+                              class="next-nav-design flex items-center"
+                              >HP</a
+                            >
+                          </li>
+                        </div>
+                        <div class="w-[200px]">
+                          <li class="py-[4px] px-[15px] double-nav-design">
+                            <a
+                              href="#"
+                              class="next-nav-design flex items-center"
+                              >ASUS</a
+                            >
+                          </li>
+                          <li class="py-[4px] px-[15px] double-nav-design">
+                            <a
+                              href="#"
+                              class="next-nav-design flex items-center"
+                              >LENOVO</a
+                            >
+                          </li>
+                        </div>
+                      </ul>
+                    </li>
+                    <li
+                      class="group/nav-5-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                    >
+                      <a href="#" class="next-nav-design flex items-center"
+                        >Casing Cooler</a
+                      >
+                      <!--nav bar next-->
+                      <ul
+                        class="absolute left-[200px] top-[-5px] w-[400px] py-[5px] z-50 bg-white shadow-box group-hover/nav-5-display-design:text-black invisible opacity-0 flex justify-between"
+                      >
+                        <div class="w-[200px]">
+                          <li class="py-[4px] px-[15px] double-nav-design">
+                            <a
+                              href="#"
+                              class="next-nav-design flex items-center"
+                              >DELL</a
+                            >
+                          </li>
+                          <li class="py-[4px] px-[15px] double-nav-design">
+                            <a
+                              href="#"
+                              class="next-nav-design flex items-center"
+                              >HP</a
+                            >
+                          </li>
+                        </div>
+                        <div class="w-[200px]">
+                          <li class="py-[4px] px-[15px] double-nav-design">
+                            <a
+                              href="#"
+                              class="next-nav-design flex items-center"
+                              >ASUS</a
+                            >
+                          </li>
+                          <li class="py-[4px] px-[15px] double-nav-design">
+                            <a
+                              href="#"
+                              class="next-nav-design flex items-center"
+                              >LENOVO</a
+                            >
+                          </li>
+                        </div>
+                      </ul>
+                    </li>
+                    <li
+                      class="group/nav-5-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                    >
+                      <a href="#" class="next-nav-design flex items-center"
+                        >Optical Disk Drive</a
+                      >
+                      <!--nav bar next-->
+                      <ul
+                        class="absolute left-[200px] top-[-5px] w-[200px] py-[5px] z-50 bg-white shadow-box group-hover/nav-5-display-design:text-black invisible opacity-0"
+                      >
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >ASUS</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >LENOVO</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="py-[4px] px-[15px] double-nav-design">
+                      <a
+                        href="#"
+                        class="next-nav-design flex items-center text-wrap"
+                        >Vertical Graphics Card Holder</a
+                      >
+                    </li>
+
+                    <li class="py-[4px] px-[15px] double-nav-design">
+                      <a
+                        href="#"
+                        class="next-nav-design flex items-center underline-design"
+                        >Show All Component</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <!--Monitor nav part-->
+
+              <li class="relative">
+                <a
+                  href="#"
+                  class="nav-design peer/nav-2-display-design pb-3 flex items-center"
+                  >Monitor</a
+                >
+                <div
+                  class="absolute left-2.5 invisible peer-hover/nav-2-display-design:visible transition-all duration-100 hover:visible w-[200px] opacity-0 peer-hover/nav-2-display-design:opacity-100 bg-white shadow-box hover:opacity-100"
+                >
+                  <ul
+                    class="py-[5px] z-50 bg-white shadow-box flex justify-between w-[400px] inline-block"
+                  >
+                    <div class="w-[200px]">
+                      <li
+                        class="group/nav-2-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                      >
+                        <a href="#" class="next-nav-design flex items-center"
+                          >MSI</a
+                        >
+                      </li>
+                    </div>
+                    <div class="w-[200px]">
+                      <li
+                        class="group/nav-2-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                      >
+                        <a href="#" class="next-nav-design flex items-center"
+                          >Dahua</a
+                        >
+                      </li>
+                    </div>
+                  </ul>
+                </div>
+              </li>
+
+              <!--UPS nav part-->
+
+              <li class="relative">
+                <a
+                  href="#"
+                  class="nav-design peer/nav-1-display-design pb-3 flex items-center"
+                  >UPS</a
+                >
+                <div
+                  class="absolute left-2.5 invisible peer-hover/nav-1-display-design:visible transition-all duration-100 hover:visible w-[200px] opacity-0 peer-hover/nav-1-display-design:opacity-100 bg-white shadow-box hover:opacity-100"
+                >
+                  <ul class="py-[5px] z-50 bg-white shadow-box w-full">
+                    <li
+                      class="group/nav-2-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                    >
+                      <a href="#" class="next-nav-design flex items-center"
+                        >Processor</a
+                      >
+                      <!--double nav ber-->
+                      <ul
+                        class="absolute left-[200px] top-[-5px] w-[200px] py-[5px] z-50 bg-white shadow-box group-hover/nav-2-display-design:text-black invisible opacity-0"
+                      >
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >CPU Cooler</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Ryzen PC</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <!--phone nav part-->
+
+              <li class="relative">
+                <a
+                  href="#"
+                  class="nav-design peer/nav-1-display-design pb-3 flex items-center"
+                  >Phone</a
+                >
+                <div
+                  class="absolute left-2.5 invisible peer-hover/nav-1-display-design:visible transition-all duration-100 hover:visible w-[200px] opacity-0 peer-hover/nav-1-display-design:opacity-100 bg-white shadow-box hover:opacity-100"
+                >
+                  <ul class="py-[5px] z-50 bg-white shadow-box w-full">
+                    <li
+                      class="group/nav-2-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                    >
+                      <a href="#" class="next-nav-design flex items-center"
+                        >iPhone</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <!--Tablet nav part-->
+
+              <li class="relative">
+                <a
+                  href="#"
+                  class="nav-design peer/nav-1-display-design pb-3 flex items-center"
+                  >Tablet</a
+                >
+                <div
+                  class="absolute left-2.5 invisible peer-hover/nav-1-display-design:visible transition-all duration-100 hover:visible w-[200px] opacity-0 peer-hover/nav-1-display-design:opacity-100 bg-white shadow-box hover:opacity-100"
+                >
+                  <ul class="py-[5px] z-50 bg-white shadow-box w-full">
+                    <li
+                      class="group/nav-2-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                    >
+                      <a href="#" class="next-nav-design flex items-center"
+                        >Graphics Tablet</a
+                      >
+                      <!--double nav ber-->
+                      <ul
+                        class="absolute left-[200px] top-[-5px] w-[200px] py-[5px] z-50 bg-white shadow-box group-hover/nav-2-display-design:text-black invisible opacity-0"
+                      >
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >CPU Cooler</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Ryzen PC</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <!--Office Equipment nav part-->
+
+              <li class="relative">
+                <a
+                  href="#"
+                  class="nav-design peer/nav-2-display-design pb-3 flex items-center"
+                  >Office Equipment</a
+                >
+                <div
+                  class="absolute left-2.5 invisible peer-hover/nav-2-display-design:visible transition-all duration-100 hover:visible w-[200px] opacity-0 peer-hover/nav-2-display-design:opacity-100 bg-white shadow-box hover:opacity-100"
+                >
+                  <ul
+                    class="py-[5px] z-50 bg-white shadow-box flex justify-between w-[400px] inline-block"
+                  >
+                    <div class="w-[200px]">
+                      <li
+                        class="group/nav-2-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                      >
+                        <a href="#" class="next-nav-design flex items-center"
+                          >Graphics Tablet</a
+                        >
+                        <!--double nav ber-->
+                        <ul
+                          class="absolute left-[200px] top-[-5px] w-[200px] py-[5px] z-50 bg-white shadow-box group-hover/nav-2-display-design:text-black invisible opacity-0"
+                        >
+                          <li class="py-[4px] px-[15px] double-nav-design">
+                            <a
+                              href="#"
+                              class="next-nav-design flex items-center"
+                              >CPU Cooler</a
+                            >
+                          </li>
+                          <li class="py-[4px] px-[15px] double-nav-design">
+                            <a
+                              href="#"
+                              class="next-nav-design flex items-center"
+                              >Ryzen PC</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                    </div>
+                    <div class="w-[200px]">
+                      <li
+                        class="group/nav-2-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                      >
+                        <a href="#" class="next-nav-design flex items-center"
+                          >Graphics Tablet</a
+                        >
+                        <!--double nav ber-->
+                        <ul
+                          class="absolute left-[200px] top-[-5px] w-[200px] py-[5px] z-50 bg-white shadow-box group-hover/nav-2-display-design:text-black invisible opacity-0"
+                        >
+                          <li class="py-[4px] px-[15px] double-nav-design">
+                            <a
+                              href="#"
+                              class="next-nav-design flex items-center"
+                              >CPU Cooler</a
+                            >
+                          </li>
+                          <li class="py-[4px] px-[15px] double-nav-design">
+                            <a
+                              href="#"
+                              class="next-nav-design flex items-center"
+                              >Ryzen PC</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                    </div>
+                  </ul>
+                </div>
+              </li>
+
+              <!--Camera nav part-->
+
+              <li class="relative">
+                <a
+                  href="#"
+                  class="nav-design peer/nav-1-display-design pb-3 flex items-center"
+                  >Tablet</a
+                >
+                <div
+                  class="absolute left-2.5 invisible peer-hover/nav-1-display-design:visible transition-all duration-100 hover:visible w-[200px] opacity-0 peer-hover/nav-1-display-design:opacity-100 bg-white shadow-box hover:opacity-100"
+                >
+                  <ul class="py-[5px] z-50 bg-white shadow-box w-full">
+                    <li
+                      class="group/nav-2-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                    >
+                      <a href="#" class="next-nav-design flex items-center"
+                        >Graphics Tablet</a
+                      >
+                      <!--double nav ber-->
+                      <ul
+                        class="absolute left-[200px] top-[-5px] w-[200px] py-[5px] z-50 bg-white shadow-box group-hover/nav-2-display-design:text-black invisible opacity-0"
+                      >
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >CPU Cooler</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Ryzen PC</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <!--Security nav part-->
+
+              <li class="relative">
+                <a
+                  href="#"
+                  class="nav-design peer/nav-1-display-design pb-3 flex items-center"
+                  >Security</a
+                >
+                <div
+                  class="absolute right-2.5 invisible peer-hover/nav-1-display-design:visible transition-all duration-100 hover:visible w-[200px] opacity-0 peer-hover/nav-1-display-design:opacity-100 bg-white shadow-box hover:opacity-100"
+                >
+                  <ul class="py-[5px] z-50 bg-white shadow-box w-full">
+                    <li
+                      class="group/nav-2-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                    >
+                      <a href="#" class="next-nav-design flex items-center"
+                        >Graphics Tablet</a
+                      >
+                      <!--double nav ber-->
+                      <ul
+                        class="absolute left-[200px] top-[-5px] w-[200px] py-[5px] z-50 bg-white shadow-box group-hover/nav-2-display-design:text-black invisible opacity-0"
+                      >
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >CPU Cooler</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Ryzen PC</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <!--Networking nav part-->
+
+              <li class="relative">
+                <a
+                  href="#"
+                  class="nav-design peer/nav-1-display-design pb-3 flex items-center"
+                  >Networking</a
+                >
+                <div
+                  class="absolute right-2.5 invisible peer-hover/nav-1-display-design:visible transition-all duration-100 hover:visible w-[200px] opacity-0 peer-hover/nav-1-display-design:opacity-100 bg-white shadow-box hover:opacity-100"
+                >
+                  <ul class="py-[5px] z-50 bg-white shadow-box w-full">
+                    <li
+                      class="group/nav-2-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                    >
+                      <a href="#" class="next-nav-design flex items-center"
+                        >Graphics Tablet</a
+                      >
+                      <!--double nav ber-->
+                      <ul
+                        class="absolute left-[200px] top-[-5px] w-[200px] py-[5px] z-50 bg-white shadow-box group-hover/nav-2-display-design:text-black invisible opacity-0"
+                      >
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >CPU Cooler</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Ryzen PC</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <!--Software nav part-->
+
+              <li class="relative">
+                <a
+                  href="#"
+                  class="nav-design peer/nav-1-display-design pb-3 flex items-center"
+                  >Software</a
+                >
+                <div
+                  class="absolute right-2.5 invisible peer-hover/nav-1-display-design:visible transition-all duration-100 hover:visible w-[200px] opacity-0 peer-hover/nav-1-display-design:opacity-100 bg-white shadow-box hover:opacity-100"
+                >
+                  <ul class="py-[5px] z-50 bg-white shadow-box w-full">
+                    <li
+                      class="group/nav-2-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                    >
+                      <a href="#" class="next-nav-design flex items-center"
+                        >Graphics Tablet</a
+                      >
+                      <!--double nav ber-->
+                      <ul
+                        class="absolute left-[200px] top-[-5px] w-[200px] py-[5px] z-50 bg-white shadow-box group-hover/nav-2-display-design:text-black invisible opacity-0"
+                      >
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >CPU Cooler</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Ryzen PC</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <!--Server & Storage nav part-->
+
+              <li class="relative">
+                <a
+                  href="#"
+                  class="nav-design peer/nav-1-display-design pb-3 flex items-center"
+                  >Server & Storage</a
+                >
+                <div
+                  class="absolute right-2.5 invisible peer-hover/nav-1-display-design:visible transition-all duration-100 hover:visible w-[200px] opacity-0 peer-hover/nav-1-display-design:opacity-100 bg-white shadow-box hover:opacity-100"
+                >
+                  <ul class="py-[5px] z-50 bg-white shadow-box w-full">
+                    <li
+                      class="group/nav-2-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                    >
+                      <a href="#" class="next-nav-design flex items-center"
+                        >Graphics Tablet</a
+                      >
+                      <!--double nav ber-->
+                      <ul
+                        class="absolute left-[200px] top-[-5px] w-[200px] py-[5px] z-50 bg-white shadow-box group-hover/nav-2-display-design:text-black invisible opacity-0"
+                      >
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >CPU Cooler</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Ryzen PC</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <!--Accessories nav part-->
+
+              <li class="relative">
+                <a
+                  href="#"
+                  class="nav-design peer/nav-1-display-design pb-3 flex items-center"
+                  >Accessories</a
+                >
+                <div
+                  class="absolute right-2.5 invisible peer-hover/nav-1-display-design:visible transition-all duration-100 hover:visible w-[200px] opacity-0 peer-hover/nav-1-display-design:opacity-100 bg-white shadow-box hover:opacity-100"
+                >
+                  <ul class="py-[5px] z-50 bg-white shadow-box w-full">
+                    <li
+                      class="group/nav-2-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                    >
+                      <a href="#" class="next-nav-design flex items-center"
+                        >Graphics Tablet</a
+                      >
+                      <!--double nav ber-->
+                      <ul
+                        class="absolute left-[200px] top-[-5px] w-[200px] py-[5px] z-50 bg-white shadow-box group-hover/nav-2-display-design:text-black invisible opacity-0"
+                      >
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >CPU Cooler</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Ryzen PC</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <!--Gadget nav part-->
+
+              <li class="relative">
+                <a
+                  href="#"
+                  class="nav-design peer/nav-1-display-design pb-3 flex items-center"
+                  >Gadget</a
+                >
+                <div
+                  class="absolute right-2.5 invisible peer-hover/nav-1-display-design:visible transition-all duration-100 hover:visible w-[200px] opacity-0 peer-hover/nav-1-display-design:opacity-100 bg-white shadow-box hover:opacity-100"
+                >
+                  <ul class="py-[5px] z-50 bg-white shadow-box w-full">
+                    <li
+                      class="group/nav-2-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                    >
+                      <a href="#" class="next-nav-design flex items-center"
+                        >Graphics Tablet</a
+                      >
+                      <!--double nav ber-->
+                      <ul
+                        class="absolute left-[200px] top-[-5px] w-[200px] py-[5px] z-50 bg-white shadow-box group-hover/nav-2-display-design:text-black invisible opacity-0"
+                      >
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >CPU Cooler</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Ryzen PC</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <!--Gaming nav part-->
+
+              <li class="relative">
+                <a
+                  href="#"
+                  class="nav-design peer/nav-1-display-design pb-3 flex items-center"
+                  >Gaming</a
+                >
+                <div
+                  class="absolute right-2.5 invisible peer-hover/nav-1-display-design:visible transition-all duration-100 hover:visible w-[200px] opacity-0 peer-hover/nav-1-display-design:opacity-100 bg-white shadow-box hover:opacity-100"
+                >
+                  <ul class="py-[5px] z-50 bg-white shadow-box w-full">
+                    <li
+                      class="group/nav-2-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                    >
+                      <a href="#" class="next-nav-design flex items-center"
+                        >Graphics Tablet</a
+                      >
+                      <!--double nav ber-->
+                      <ul
+                        class="absolute right-[200px] top-[-5px] w-[200px] py-[5px] z-50 bg-white shadow-box group-hover/nav-2-display-design:text-black invisible opacity-0"
+                      >
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >CPU Cooler</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Ryzen PC</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <!--TV nav part-->
+
+              <li class="relative">
+                <a
+                  href="#"
+                  class="nav-design peer/nav-1-display-design pb-3 flex items-center"
+                  >TV</a
+                >
+                <div
+                  class="absolute right-2.5 invisible peer-hover/nav-1-display-design:visible transition-all duration-100 hover:visible w-[200px] opacity-0 peer-hover/nav-1-display-design:opacity-100 bg-white shadow-box hover:opacity-100"
+                >
+                  <ul class="py-[5px] z-50 bg-white shadow-box w-full">
+                    <li
+                      class="group/nav-2-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                    >
+                      <a href="#" class="next-nav-design flex items-center"
+                        >Graphics Tablet</a
+                      >
+                      <!--double nav ber-->
+                      <ul
+                        class="absolute right-[200px] top-[-5px] w-[200px] py-[5px] z-50 bg-white shadow-box group-hover/nav-2-display-design:text-black invisible opacity-0"
+                      >
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >CPU Cooler</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Ryzen PC</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <!--Appliance nav part-->
+
+              <li class="relative">
+                <a
+                  href="#"
+                  class="nav-design peer/nav-1-display-design pb-3 flex items-center"
+                  >Appliance</a
+                >
+                <div
+                  class="absolute right-2.5 invisible peer-hover/nav-1-display-design:visible transition-all duration-100 hover:visible w-[200px] opacity-0 peer-hover/nav-1-display-design:opacity-100 bg-white shadow-box hover:opacity-100"
+                >
+                  <ul class="py-[5px] z-50 bg-white shadow-box w-full">
+                    <li
+                      class="group/nav-2-display-design py-[4px] w-full px-[15px] icon-design double-nav-design relative hover-nav-animate nav-2-modify"
+                    >
+                      <a href="#" class="next-nav-design flex items-center"
+                        >Graphics Tablet</a
+                      >
+                      <!--double nav ber-->
+                      <ul
+                        class="absolute right-[200px] top-[-5px] w-[200px] py-[5px] z-50 bg-white shadow-box group-hover/nav-2-display-design:text-black invisible opacity-0"
+                      >
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >CPU Cooler</a
+                          >
+                        </li>
+                        <li class="py-[4px] px-[15px] double-nav-design">
+                          <a href="#" class="next-nav-design flex items-center"
+                            >Ryzen PC</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!--next header part-->
+    <div
+      class="w-full h-[50px] bg-header-color flex items-center sticky top-0 z-[9999999999999999999999999] min-[1325px]:hidden px-[15px]"
+    >
+      <div class="calc-property">
+        <div class="relative">
+          <div class="cursor-pointer">
+            <span
+              class="w-[20px] h-[2px] inline-block bg-white relative before:absolute before:top-[-5px] before:left-0 before:w-[20px] before:h-[2px] before:bg-white after:w-[20px] after:absolute after:h-[2px] after:bottom-[-4.5px] after:left-0 after:bg-white"
+            ></span>
+          </div>
+          <div
+            class="w-[290px] bg-white h-auto responsive-box absolute top-[38px] -left-[24px] hidden"
+          >
+            <div>
+              <div
+                class="flex justify-between items-center cursor-pointer transition-all duration-300 group relative border-b border-solid border-[#eee] w-full px-5"
+              >
+                <a
+                  href="#"
+                  class="leading-[44px] text-[16px] font-medium text-black group-hover:text-text-default transition-all duration-300"
+                  >Desktop</a
+                >
+                <span
+                  class="w-[15px] h-[1px] bg-black after:absolute relative after:left-0 after:top-0 after:rotate-[90deg] after:bg-black after:w-full after:h-full"
+                ></span>
+              </div>
+              <div class="w-full px-5 h-auto bg-[#FAFAFA] hidden">
+                <ul>
+                  <li>
+                    <a href="#" class="capitalize leading-[44px]">home</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-[80px] h-[36px]">
+        <a href="#">
+          <img
+            class="w-full h-full"
+            src="../assets/favicon.png"
+            alt="icon here"
+          />
+        </a>
+      </div>
+      <div class="calc-property flex justify-end pt-[5px]">
+        <i
+          class="fa-solid fa-magnifying-glass text-[18px] text-white ml-[15px] cursor-pointer"
+        ></i>
+        <i
+          class="fa-regular fa-square-plus text-[18px] text-white ml-[15px] cursor-pointer"
+        ></i>
+        <div></div>
+      </div>
+    </div>
+    <!--next bottom part-->
+    <div
+      class="w-full fixed bottom-0 h-[61px] bg-header-color z-[99999] min-[1325px]:hidden flex"
+    >
+      <a
+        href="#"
+        class="flex items-center flex-col justify-center basis-[20%] text-white"
+      >
+        <i class="fa-regular fa-square-plus text-[18px]"></i>
+        <p class="text-[10px] text-next-text">Cart</p>
+      </a>
+      <a
+        href="#"
+        class="flex items-center flex-col justify-center basis-[20%] text-white"
+      >
+        <i
+          class="fa-solid fa-bolt-lightning text-text-default text-lg animate-infinite_color"
+        ></i>
+        <p class="text-[10px] text-next-text">Cart</p>
+      </a>
+      <a
+        href="#"
+        class="flex items-center flex-col justify-center basis-[20%] text-white"
+      >
+        <i class="fa-regular fa-square-plus text-[18px]"></i>
+        <p class="text-[10px] text-next-text">Cart</p>
+      </a>
+      <a
+        href="#"
+        class="flex items-center flex-col justify-center basis-[20%] text-white"
+      >
+        <i class="fa-regular fa-square-plus text-[18px]"></i>
+        <p class="text-[10px] text-next-text">Cart</p>
+      </a>
+      <a
+        href="#"
+        class="flex items-center flex-col justify-center basis-[20%] text-white"
+      >
+        <i class="fa-regular fa-square-plus text-[18px]"></i>
+        <p class="text-[10px] text-next-text">Cart</p>
+      </a>
+    </div>
+    <div
+      class="fixed right-5 bottom-[90px] z-[999999999999999] border border-solid hover:bg-last-c-bg-hover transition-all duration-300 border-last-c-bor uppercase cursor-pointer lasst-shadow grid place-items-center text-white w-[59px] h-[59px] bg-last-c-bg rounded-[4px] max-[1324px]:hidden"
+    >
+      <div
+        class="flex justify-center flex-col relative h-full w-full items-center"
+      >
+        <i class="fa-regular fa-square-plus text-[18px]"></i>
+        <p class="text-[10px]">Cart</p>
+        <span
+          class="absolute -right-[10px] -top-[10px] bg-text-default text-white w-[20px] h-[20px] flex items-center justify-center rounded-full"
+          ><p>0</p></span
+        >
+      </div>
+    </div>
+    <div
+      class="fixed right-5 bottom-5 z-[999999999999999] border border-solid hover:bg-last-c-bg-hover transition-all duration-300 border-last-c-bor uppercase cursor-pointer lasst-shadow grid place-items-center text-white w-[59px] h-[59px] bg-last-c-bg rounded-[4px] max-[1324px]:hidden"
+    >
+      <div
+        class="flex justify-center flex-col relative h-full w-full items-center"
+      >
+        <i class="fa-regular fa-square-plus text-[18px]"></i>
+        <p class="text-[10px]">Cart</p>
+        <span
+          class="absolute -right-[10px] -top-[10px] bg-text-default text-white w-[20px] h-[20px] flex items-center justify-center rounded-full"
+          ><p>0</p></span
+        >
+      </div>
+    </div>
+    <section class="mt-[30px]">
+        <!--option section-->
+        <div class="max-w-[1320px] mx-auto px-[15px]">
+        <i class="fa-solid fa-house text-[16px] text"></i>
+    </div>
+    </section>
+</body>
+</html>
