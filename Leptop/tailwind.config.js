@@ -28,7 +28,9 @@
         "footer-border": "rgba(255, 255, 255, 0.1)",
         "footer-card-para": "#838383",
         "footer-card-section-card": "#ffffff1a",
-        "new-icon-color": "#111"
+        "new-icon-color": "#111",
+        "border-color": "#ddd",
+        "new-color": "#eee",
       },
       animation: {
         infinite_color: "infinite_color 2s ease infinite",

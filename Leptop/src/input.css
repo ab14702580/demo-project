@@ -42,11 +42,8 @@
   .de-w {
     @apply w-[96%] mx-auto;
   }
-  .re-s {
-    @apply basis-[25%] max-w-[25%] grow-[1] shrink-[1];
-  }
-  .res-rgb-c {
-    @apply max-85:basis-[49.7%] max-85:w-1/2;
+  .option-design{
+    @apply px-[14px] mr-[5px] mb-[5px] text-new-icon-color border border-solid border-border-color rounded-[30px] hover:bg-blue-700 transition-colors duration-300 hover:text-white text-[13px] inline-block cursor-pointer hover:border-blue-700;
   }
 }
 @layer utilities {
@@ -128,4 +125,17 @@
     min-width: calc(50% - 45px);
     overflow: hidden;
   }
+  .leading-09 {
+    line-height: 32px;
+  }
+  .leading-05 {
+    line-height: 50px;
+  }
+  .shadow-card {
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+  }
+  .new-shadow {
+    box-shadow: 0 1px 1px #0000001a;
+  }
+  
 }
