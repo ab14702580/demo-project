@@ -137,5 +137,8 @@
   .new-shadow {
     box-shadow: 0 1px 1px #0000001a;
   }
+  .new-flex-design {
+    flex: 1 1 auto;
+  }
   
 }
