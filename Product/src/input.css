@@ -45,6 +45,10 @@
   .option-design{
     @apply px-[14px] mr-[5px] mb-[5px] text-new-icon-color border border-solid border-border-color rounded-[30px] hover:bg-blue-700 transition-colors duration-300 hover:text-white text-[13px] inline-block cursor-pointer hover:border-blue-700;
   }
+  
+  .button-modify-5{
+    @apply px-[20px] leading-[40px] text-[14px] font-medium rounded-[5px] text-black bg-[#FFFFFF] new-shadow-2 hover:bg-[#d51e0b] hover:text-white transition-colors duration-300 ml-2.5 mb-[20px];
+  }
 }
 @layer utilities {
   .next-nav-content-design {

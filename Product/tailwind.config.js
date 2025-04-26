@@ -36,6 +36,8 @@
         "new-bg-20": "#F5F6FC",
         "new-para-color": "#353637",
         "new-border-color": "#edf2f5",
+        "new-border-color-2": "#ecedef",
+        "new-border-color-3": "#ecedef",
       },
       animation: {
         infinite_color: "infinite_color 2s ease infinite",
