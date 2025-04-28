@@ -150,5 +150,7 @@
   .design-border-color-card:checked + label{
     border-color: #3749BB;
   }
-  
+  .new-button-modify-5{
+    flex: 1 1 auto;
+  }
 }
