@@ -2318,6 +2318,38 @@ video {
   }
 }
 
+@media not all and (min-width: 465px) {
+  .max-465\:hidden {
+    display: none;
+  }
+}
+
+@media not all and (min-width: 350px) {
+  .max-350\:hidden {
+    display: none;
+  }
+}
+
+@media not all and (min-width: 320px) {
+  .max-320\:ml-1 {
+    margin-left: 0.25rem;
+  }
+}
+
+@media not all and (min-width: 310px) {
+  .max-310\:ml-0 {
+    margin-left: 0px;
+  }
+
+  .max-310\:ml-1 {
+    margin-left: 0.25rem;
+  }
+
+  .max-310\:hidden {
+    display: none;
+  }
+}
+
 @media (min-width: 1325px) {
   .min-\[1325px\]\:hidden {
     display: none;
